@@ -274,7 +274,11 @@ a.book-btn {
             border-left: $padding-8 solid $color;
             background-color: rgba($color, 0.15);
             color: rgba(0, 0, 0, 0.85);
-            font-weight: 500;
+            font-weight: bold;
+            padding-top: $padding-16;
+            padding-bottom: $padding-16;
+            margin-top: $padding-16;
+            margin-bottom: $padding-16;
             // background-color: $gray-100;
         }
     }
