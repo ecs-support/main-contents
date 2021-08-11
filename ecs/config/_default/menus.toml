@@ -1,0 +1,170 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[main]]
+  name = "หน้าแรก"
+  url = "#hero"
+  weight = 1
+
+
+[[main]]
+  name = "พิธีการศุลกากร"
+  url = "customs/import-export/"
+  weight = 20
+
+[[main]]
+  parent = "พิธีการศุลกากร"
+  name = "การนำเข้าสินค้า"
+  url = "pages/import/"
+  weight = 21
+
+[[main]]
+  parent = "พิธีการศุลกากร"
+  name = "การส่งออกสินค้า"
+  url = "pages/export/"
+  weight = 22
+[[main]]
+  parent = "พิธีการศุลกากร"
+  name = "สินค้าถ่ายลำ/ผ่านแดน"
+  url = "pages/transit/"
+  weight = 23
+[[main]]
+  parent ="พิธีการศุลกากร"
+  name = "สิทธิประโยชน์ทางภาษี"
+  url = "pages/tax-inc/"
+  weight = 24
+[[main]]
+  parent = "พิธีการศุลกากร"
+  name = "สิทธิพิเศษทางการค้า"
+  url = "pages/fta/"
+  weight = 25
+[[main]]
+  parent = "พิธีการศุลกากร"
+  name = "A.T.A. CARNET"
+  url = "pages/ata-carnet/"
+  weight = 26
+
+
+[[main]]
+  name = "เรื่องน่ารู้"
+  url = "pages/"
+  weight = 30
+
+
+[[main]]
+  parent = "เรื่องน่ารู้"
+  name = "ของควบคุมการนำเข้า-ส่งออก"
+  url = "pages/restricted/"
+  weight = 31
+
+[[main]]
+  parent = "เรื่องน่ารู้"
+  name = "พิกัดศุลกากร"
+  url = "pages/tariff/"
+  weight = 32
+[[main]]
+  parent = "เรื่องน่ารู้"
+  name = "ราคาศุลกากร"
+  url = "pages/price/"
+  weight = 33
+
+[[main]]
+  parent = "เรื่องน่ารู้"
+  name = "กรมศุลกากร"
+  url = "pages/customs/"
+  weight = 41
+
+[[main]]
+  parent = "เรื่องน่ารู้"
+  name = "ผู้ประกอบการ"
+  url = "pages/company/"
+  weight = 42
+
+
+[[main]]
+  parent = "เรื่องน่ารู้"
+  name = "Reference data"
+  url = "https://ecs-support.github.io/KM/reference/"
+  weight = 49
+
+
+
+  
+
+[[main]]
+
+  name = "ประกาศ/กฎหมาย"
+  url = "post/announcement/customs/"
+  weight = 60
+
+[[main]]
+  parent = "ประกาศ/กฎหมาย"
+  name = "ประกาศกรมศุลกากร"
+  url = "post/announcement/customs/"
+  weight = 61
+
+[[main]]
+  parent = "ประกาศ/กฎหมาย"
+  name = "ประกาศกระทรวง"
+  url = "post/announcement/ministry/"
+  weight = 62
+
+[[main]]
+  parent = "ประกาศ/กฎหมาย"
+  name = "ประกาศหน่วยงานอื่น ๆ"
+  url = "post/announcement/oga/"
+  weight = 63
+
+
+[[main]]
+  name = "ข่าวสาร/บทความ"
+  url = "post/"
+  weight = 70
+
+[[main]]
+  parent = "ข่าวสาร/บทความ"
+  name = "สาระความรู้"
+  url = "post/knowledge/"
+  weight = 71
+
+[[main]]
+  parent = "ข่าวสาร/บทความ"
+  name = "ข่าวสาร"
+  url = "post/news/"
+  weight = 72
+
+[[main]]
+  name = "คลังความรู้"
+  url = ""
+  weight = 80
+
+[[main]]
+  parent = "คลังความรู้"
+  name = "ISO-20007"
+  url = "pages/knowledge/iso/"
+  weight = 81
+[[main]]
+  parent = "คลังความรู้"
+  name = "เอกสารเผยแพร่"
+  url = "docs/"
+  weight = 82
+
+[[main]]
+  name = "FAQ"
+  url = "faq/"
+  weight = 90
+
+
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 70
+
+
+
+  

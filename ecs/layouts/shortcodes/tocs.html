@@ -1,0 +1,6 @@
+<aside>
+    <header>
+        <h2>{{"Table of Contents"}}</h2>
+    </header>
+ {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" |  safeHTML }}
+</aside>

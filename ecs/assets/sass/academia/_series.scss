@@ -1,0 +1,79 @@
+.series-head {
+
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+
+
+}
+
+.series-item {
+    line-height: 1.5em;
+    background-color: #f5f5f5;
+
+}
+
+
+
+#txt_side {
+    font-size: .9em;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: $border-radius;
+    font-weight: normal;
+
+    &:hover {
+        color: rgba(0, 0, 0, .8);
+        text-decoration: none;
+        border: 1.5px solid rgba(0, 0, 0, .8);
+        font-weight: bold;
+
+        cursor: pointer;
+        background-color: $sta-primary-light;
+        transition: .4s;
+
+
+
+    }
+
+    &:after {
+        background-color: $sta-primary;
+        border: 2px solid $sta-primary;
+        border-radius: $border-radius;
+
+    }
+
+}
+
+.docs-sidebar .nav>.active>#txt_side {
+    background-color: $sta-primary;
+    color: white;
+
+    border: 2px solid rgba(0, 0, 0, .8);
+    transition: 0.4s;
+}
+
+.series-content {
+    max-width: 100%;
+}
+
+.reduce-font {
+    font-size: 90%;
+}
+
+.series-toc {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+a.nav-link {
+    color: red;
+}
+
+.series-toc>#TableOfContents>.flex-column>ul>.nav-item {
+    
+    background-color: green;
+}
+

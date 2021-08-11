@@ -1,0 +1,14 @@
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "1" }}
+
+<div class="container faq-container">
+
+  <div class="col-12  faq-heading">
+    {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+  <div class="col-12 justify-content-center align-center">
+    {{ $st.Content }}
+  </div>
+ </div>
+</div>

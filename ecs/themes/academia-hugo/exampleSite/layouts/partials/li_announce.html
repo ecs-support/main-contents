@@ -1,0 +1,24 @@
+{{ $item := . }}
+
+
+
+
+<div class="article-container">
+
+  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+    <div class="d-md-table-cell text-center p-4  text-info mb-4 mb-md-0"><span
+        class="h2 d-block text-danger">{{ $item.Params.doc_no}}</span><span>{{ .PublishDate.Format "02-Jan"}}
+        </span>
+        </div>
+
+    <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+      <a href="{{ .Permalink }}" class="h5 mb-3 d-block">{{ .Title }}</a>
+      <p class="mb-0">{{ .Summary | truncate 100 }}</p>
+    </div>
+    <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="{{ .Permalink }}"
+        class="announce-btn">{{ i18n "read_more"}}</a></div>
+  </li>
+
+</div>
+
+

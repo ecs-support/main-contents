@@ -1,0 +1,401 @@
+// Override this file to add your own SCSS styling.
+
+// Used in layout
+$padding-1: 1px !default;
+$padding-2: 0.125rem !default;
+$padding-4: 0.25rem !default;
+$padding-8: 0.5rem !default;
+$padding-16: 1rem !default;
+$font-size-base: 1rem !default;
+$font-size-12: 0.75rem !default;
+$font-size-14: 0.875rem !default;
+$font-size-16: 1rem !default;
+$border-radius: 0.15rem !default;
+
+// Grayscale 
+$white: #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$color-link: #2A4B7C !default;
+$color-visited-link: #2A4B7C !default;
+$color-hover: #da532c !default;
+
+$body-background: #F5F5F5 !default;
+$body-font-color: #202020 !default;
+$body-font-weight: normal !default;
+
+$body-min-width: 35rem !default;
+$container-max-width: 90rem !default;
+
+$header-height: 3.5rem !default;
+$menu-width: 30rem !default;
+$toc-width: 30rem !default;
+
+$md-breakpoint: $menu-width + $body-min-width * 1.25 + $toc-width !default;
+$sm-breakpoint: $menu-width + $body-min-width !default;
+
+// Panel colors
+$hint-colors: (
+  info: #2A4B7C,
+  warning: #FF6600,
+  danger: #b41b06,
+  success: green,
+) !default;
+
+.flex {
+  display: flex;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex-even {
+  flex: 1 1;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+@mixin spin($duration) {
+  animation: spin $duration ease infinite;
+
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@mixin fixed {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+.markdown-inner {
+
+  // Util class to remove extra margin in nested markdown content
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+// {{< expand "Label" "icon" >}}
+.book-expand {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+
+  .book-expand-head {
+    background-color:#f8f9fa;
+    color: rgba(0, 0, 0, 0.60);
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0.125rem solid #fc6f5c;
+
+    &:hover {
+      background-color: rgba(255, 56, 96, 0.15);
+      color: rgba(0, 0, 0, 0.70);      
+    }
+  }
+
+  .book-expand-content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    display:none;
+  }
+
+  input[type="checkbox"]:checked .book-expand-content {
+    display: block;
+  }
+}
+
+
+
+
+// {{< tabs >}}
+.book-tabs {
+  margin-top: $padding-16;
+  margin-bottom: $padding-16;
+
+  border: $padding-2 solid $gray-400;
+  border-radius: $border-radius;
+
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+
+  label {
+    display: inline-block;
+    padding: $padding-8 $padding-16;
+
+    // border-bottom: $padding-1 transparent;
+    cursor: pointer;
+    background-color: $gray-200;
+    
+    border: $padding-2 solid $gray-400;
+    //border-bottom: $padding-2 solid red;
+    //border-right: $padding-4 solid white;
+    color: rgba(0,0,0,0.8);
+    // border-bottom: $padding-4 solid #003366;
+
+
+    &:hover {
+      color: rgba(0,0,0,0.9);
+      background-color: $gray-300;
+      font-weight: 600;
+      border-bottom: $padding-4 solid $sta-link-hover;
+    }
+
+  }
+
+  .book-tabs-content {
+    order: 999; //Move content blocks to the end
+    width: 100%;
+
+    padding: $padding-8;
+    display: none;
+
+  }
+
+  input[type="radio"]:checked+label {
+    border-bottom: $padding-4 solid #FF6600;
+  //  color: $gray-200;
+   // background-color: #2A4B7C;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+      background-color: $gray-300;
+
+  }
+
+  input[type="radio"]:checked+label+.book-tabs-content {
+    display: block;
+  }
+}
+
+// {{< columns >}}
+.book-columns {
+  margin-left: -$padding-16;
+  margin-right: -$padding-16;
+
+  >div {
+    margin: $padding-16 0;
+    // max-width: 50%;
+    min-width: $body-min-width * 0.66;
+    padding: 0 $padding-16;
+  }
+}
+
+// {{< button >}}
+a.book-btn-downloads {
+  display: inline-block;
+  color: #f5f5f5;
+  text-decoration: none !important;
+  border: $padding-2 solid $color-link;
+  border-radius: $border-radius;
+  padding: 15px;
+  margin-top: $padding-8;
+  margin-bottom: $padding-8;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px grey;
+
+  &:hover {
+    color: white !important;
+    background-color: gray;
+
+
+  }
+}
+
+// {{< button downloads >}}
+a.book-btn {
+  display: inline-block;
+  
+  text-decoration: none !important;
+  border: $padding-4 solid $color-link;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: $padding-4;
+  margin-bottom: $padding-4;
+  margin-left: $padding-4;
+  font-weight: 600;
+  color: $color-link;
+  cursor: pointer;
+  box-shadow: 5px 5px 3px gray;
+
+
+  &:hover {
+    color: white !important;
+    background-color: $sta-heading;
+    box-shadow: 10px 10px 5px gray;
+
+  }
+}
+
+
+
+
+// {{< hint >}}
+.book-hint {
+  @each $name, $color in $hint-colors {
+    &.#{$name} {
+      border-left-color: $color;
+      background-color: rgba($color, 0.15);
+      color: rgba(0,0,0,0.85);
+      font-weight: 500;
+      // background-color: $gray-100;
+    }
+  };
+}
+
+
+
+
+// Webkit
+::-webkit-scrollbar {
+  width: $padding-8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: $padding-8;
+}
+
+:hover::-webkit-scrollbar-thumb {
+  background: $gray-500;
+}
+
+// MS
+body {
+  -ms-overflow-style: -ms-autohiding-scrollbar
+}
+
+// Future
+.book-menu nav {
+  scrollbar-color: transparent $gray-500;
+}
+
+
+// Table
+
+
+table {
+  overflow: auto;
+  display: block;
+  border-spacing: 0;
+  border-collapse: collapse;
+  
+  margin-bottom: $padding-8;
+
+  tr th, tr td {
+    padding: $padding-8 $padding-8;
+    border: $padding-1 solid $gray-500;
+    
+  }
+  th {
+    background:#2A4B7C;
+    color:$gray-200 ;
+    text-align: center;
+  }
+
+  tr:nth-child(2n) {
+    background: $gray-300;
+  }
+}
+
+hr {
+  height: $padding-1;
+  border: none;
+  background: $gray-200;
+}
+
+ul, ol {
+  padding-left: $padding-16;
+}
+
+dl {
+  dt {
+    font-weight: bolder;
+    margin-top: $padding-4;
+    
+  }
+
+  dd {
+    margin-left: $padding-16 ;
+  }
+}
+
+// Special case for highlighted code with line numbers
+.highlight table tr {
+  td:nth-child(1) pre {
+    margin: 0;
+    padding-right: 0;
+    
+  }
+  td:nth-child(2) pre {
+    margin: 0;
+    padding-left: 0;
+  }
+}
+

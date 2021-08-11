@@ -1,0 +1,133 @@
+{{ $current_page := . }}
+
+{{/* Dynamically load menu for this docs page. */}}
+{{ $menu_name := path.Base (path.Split .CurrentSection.File).Dir }}
+{{ if not (index site.Menus $menu_name) }}
+{{ errorf "Please define menu items named `menu: %s:` in your %s front matter or define `[[menu.%s]]` in `config/default/menus.toml`. See https://sourcethemes.com/academic/docs/managing-content/#menus" $menu_name .Path $menu_name }}
+{{ end }}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/* Fixed sidenav, full height */
+
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+color: #818181;
+display: block;
+border: none;
+background: none;
+width: 100%;
+text-align: left;
+cursor: pointer;
+outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+margin-left: 200px; /* Same as the width of the sidenav */
+font-size: 20px; /* Increased text to enable scrolling */
+padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+background-color: green;
+color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the
+design of the dropdown content */
+.dropdown-container {
+display: none;
+background-color: #262626;
+padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+float: right;
+padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+</style>
+
+
+<form class="docs-search d-flex align-items-center">
+    <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav"
+        aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+        <span><i class="fas fa-bars"></i></span>
+    </button>
+
+    {{ if eq site.Params.search.engine 1 }}
+    <input name="q" type="search" class="form-control" id="search-query" placeholder="{{ i18n "search_placeholder" }}"
+        autocomplete="off">
+    {{ end }}
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+   
+ {{ with (index site.Menus $menu_name).ByWeight }}
+ {{ range (index site.Menus $menu_name).ByWeight }}
+    <div class="docs-toc-item sidenav {{ if $current_page.IsMenuCurrent $menu_name . }} active {{ end }}">
+        
+        {{ if .URL }}
+        <a class="docs-toc-link series-head" href="{{ .URL }}"> {{ .Name }}</a>
+            {{else if .HasChildren }}     
+
+        <button class="dropdown-btn" href="{{ (index .Children 0).URL }}">{{ .Name }}<i class="fa fa-caret-down"></i>
+        </button>
+       
+        <div class="dropdown-container">
+            <ul class="nav docs-sidenav series-item">
+      
+            {{ range .Children }}
+        <li class="active" id="series-border" >
+            <a id="txt_side" href="{{ .URL }}">{{ .Name }}</a>
+           </li>
+           {{ end }}
+           </ul>
+      </div>
+          
+           </div>
+        
+        
+        {{ end }}
+
+    
+    {{ end }}
+    {{ end }}
+</nav>
+
+<script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+   var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+           /* this.classList.toggle("active");  */
+           var dropdownContent = this.nextElementSibling;
+        /*    var dropdownContent = $("a.active");  */
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+</script>

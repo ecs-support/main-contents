@@ -1,0 +1,43 @@
+---
+title: การแสดงหนังสือรับรองถิ่นกำเนิดสินค้า สำหรับผู้นำของเข้าที่ได้รับผลกระทบจากการแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019 (โควิด-19)
+doc_no: 203
+tags: ["โควิด-19"]
+categories: ["สิทธิพิเศษทางการค้า","ประกาศกรมศุลกากร"]
+date: 2020-12-29T21:51:06+07:00
+publishDate: 2020-12-29T21:51:06+07:00
+featured: false
+draft: false
+layout: notice
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+image:
+  placement: 
+  caption: ''
+  focal_point: ""
+  preview_only: true
+
+---
+
+![](featured.png)
+
+ประกาศกรมศุลกากรที่ 203/.2563 เรื่อง การแสดงหนังสือรับรองถิ่นกำเนิดสินค้า สำหรับผู้นำของเข้าที่ได้รับผลกระทบจากการแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019 (โควิด-19) ให้ใช้บังคับตั้งแต่วันที่ 1 มกราคม 2564 ถึงวันที่ 31 มีนาคม 2564 
+
+
+
+<br>
+{{< gdocs src="./2563-203.pdf" >}}
+
+<br>
+
+
+
+<div class="article-tags">
+<a class="badge badge-danger" href="./2563-203.pdf" target="_blank" id="download_files_new">Download </a> <i id="files" class=" fas fa-file-pdf"></i>
+</div>
+<br>
+
+> ที่มา : [กรมศุลกากร](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414c505f4d464b48464b4b)
+

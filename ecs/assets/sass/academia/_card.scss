@@ -1,0 +1,151 @@
+/*************************************************
+ *  Card component
+ **************************************************/
+
+.card-simple {
+  background: #f5f5f5;
+  width:100%;
+  height: auto;
+  border: 1px solid rgba(0,0,0,.5);
+  box-shadow: 2px 2px 1px grey;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom : 5px;
+  
+}
+
+.card-simple:hover {
+
+  box-shadow: 5px 5px 3px grey;
+  border: 1.5px solid rgba(0, 0, 0, .8);
+  
+
+}
+
+.card-simple:first-of-type {
+  margin-top: 0;
+}
+
+.card-simple p.read-more {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card-simple a img {
+  min-width: 100%;
+  height: auto;  
+  border: 2px solid rgba(0, 0, 0, .5);  
+  
+}
+
+.card-simple a img:hover {
+  opacity: 0.7;
+  border: 3px solid rgba(0, 0, 0, .8);
+  
+}
+
+.dark .card-simple {
+  background: rgb(40, 42, 54);
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgb(68, 71, 90);
+}
+
+.card {
+ 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: #f5f5f5;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: all 0.2s ease-out;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.card .card-image {
+  display: block;  
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.card h1 {
+  color:black;
+}
+
+.card h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  
+  text-transform: uppercase;
+}
+
+.card h4 a {
+  color: #000;
+  border-bottom: solid 1px transparent;
+}
+
+.card h4 a:hover {
+  color: $sta-link-hover;
+  border-bottom: solid 2px #000;
+  text-decoration: none;
+}
+
+.card .card-text {
+  padding: 0.75rem .75rem 0.75rem;
+}
+
+.card .card-text p {
+  color: rgba(0,0,0,0.85);
+  font-size: 0.85rem;
+}
+
+.dark .card-text p {
+  color: rgb(248, 248, 242);
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.card .card-image.hover-overlay:before {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  content: " ";
+  opacity: 0;
+  transition: all 0.2s ease-out;
+}
+
+.card .card-image.hover-overlay:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+  opacity: 0;
+  transition: all 0.2s ease-out;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f0c1';
+  text-align: center;
+  font-size: 3rem;
+  color: #666;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover .card-image.hover-overlay:before {
+  opacity: 0.8;
+}
+
+.card:hover .card-image.hover-overlay:after {
+  opacity: 0.6;
+}
+
+

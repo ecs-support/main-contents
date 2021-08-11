@@ -1,0 +1,19 @@
+{{ $str := "" }}
+<div class="container-fluid universal-wrapper">
+  <div class="row flex-xl-nowrap">
+
+  {{if .NextInSection}}
+  {{/* For the docs layout, prev/next labels are reversed. */}}
+  {{ if eq .Type "post" }}
+  {{ $str = "next" }}{{end}}
+  <div class="post-nav-item box ">
+    
+    <div class="post-nav meta-next">{{ i18n $str }} <br>
+    <a href="{{.NextInSection.RelPermalink}}" rel="next">{{.NextInSection.Title}}</a></div>
+  </div>
+  {{end}}
+  </div>
+
+  
+
+</div>

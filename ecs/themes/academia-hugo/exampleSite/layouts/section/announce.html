@@ -1,0 +1,36 @@
+{{- define "main" -}}
+
+ <div class="container">
+
+  <div class="col-12 section-heading text-center">
+
+{{ partial "page_header.html" . }}
+
+      {{ with .Content }}
+
+      {{ end }}
+
+      {{ range .Data.Pages.GroupByDate "2006" }}
+    <div class="row" >
+      <div class="col-lg-1 text-right">
+        <h3>{{ .Key }}</h3>
+      </div>
+      <div class="col-lg-11">
+
+        {{ range .Pages }}
+
+ {{ partial "li_announce" . }}
+
+
+          {{ end }}
+
+        </div>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+
+</div>
+
+{{- end -}}

@@ -1,0 +1,6 @@
+
+<ul class="list-unstyled">
+    {{ range first 5 site.Taxonomies.tags.ByCount }}
+    <li><a href="{{.Page.RelPermalink}}">{{.Page.Title}}</a></li>
+    {{ end }}
+</ul>

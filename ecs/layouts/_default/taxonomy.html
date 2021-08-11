@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+
+
+
+
+<div class="universal-wrapper">
+    <div class="row">
+        <div class="col-lg-10 lst-tagonomy justify-center ">
+<main>
+    <div>
+        <h3>{{ .Title }}</h3>
+     
+    
+
+        {{ range .Pages }}
+        
+        {{ .Render "summary"}}
+        {{ end }}
+    </div>
+</main>
+</div>
+</div>
+</div>
+{{ end }}

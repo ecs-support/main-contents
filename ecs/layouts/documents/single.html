@@ -1,0 +1,30 @@
+{{- define "main" -}}
+
+<article class="article py-5" itemscope itemtype="http://schema.org/Article">
+
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+    {{ partial "tags.html" . }}
+
+   
+      {{ partial "page_author.html" . }}
+     
+
+    {{ if site.Params.section_pager }}
+    <div class="article-widget">
+      {{ partial "section_pager.html" . }}
+    </div>
+    {{ end }}
+
+    {{ partial "comments.html" . }}
+
+  </div>
+</article>
+{{ end }}
+
