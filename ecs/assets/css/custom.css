@@ -44,6 +44,7 @@
   padding-bottom: .8rem;
   padding-top: .8rem;
   background-color: rgba(0, 128, 0, 0.08);
+  margin-bottom: 1em;
 }
 
 #TableOfContents li {
@@ -129,4 +130,8 @@
 .article .py-5 {
   padding-top: 5px;
 
+}
+
+h2 {
+  font-weight:600;
 }

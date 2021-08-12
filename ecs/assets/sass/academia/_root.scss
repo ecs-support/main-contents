@@ -18,7 +18,7 @@ html {
 
 body {
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 1em;
     line-height: inherit;
     color: inherit;
     background-color: $sta-background;
@@ -89,7 +89,7 @@ h6 {
     font-family: $sta-font-heading, sans-serif;
     font-weight: bold;
     margin-top: .5rem;
-    margin-bottom: 1rem;    
+    margin-bottom: 1.5rem;    
     color: #2A4B7C;    
     text-rendering: optimizeLegibility;
     /* Ensure long words do not overflow into content. */
@@ -111,8 +111,9 @@ h1 {
 }
 
 h2 {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     font-size: 1.75rem;
+    font-weight: 500;
 }
 
 h3 {
