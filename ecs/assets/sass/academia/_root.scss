@@ -136,18 +136,20 @@ h3.article-title a {
 }
 
 h3.article-title a:hover {
-    color:$sta-primary;
+    color:#202020;
     text-decoration: true;
-    
+    cursor: pointer;
     transition: color 0.4s ease;
+    font-weight: bold;
 }
 
 a:hover,
 a:focus {
+    color:#202020;
     text-decoration: true;
-    color: $sta-primary;
-     font-weight: bolder;
-     transition: color 0.8s ease;
+     cursor: pointer;
+     transition: color 0.4s ease;
+     font-weight: bold;
 }
 
 img,
@@ -441,6 +443,16 @@ a[data-fancybox] {
     text-align: right;
 }
 
+
+.meta-prev a:hover,
+.meta-next a:hover {
+    color:#202020;
+    text-decoration: true;
+    cursor: pointer;
+    transition: color 0.4s ease;
+    font-weight: bold;
+}
+
 .dark .post-nav-item a {
     color: #ddd;
 }
@@ -501,13 +513,9 @@ footer a #back_to_top i {
 
 .badge-light[href]:focus,
 .badge-light[href]:hover {
-    color: white;
-    color: orangered;
-    border: 3px solid rgba(0, 0, 0, .8);
-    border-radius: 5px;
-    box-shadow: none;
-    transition: color 0.4s ease;
-    box-shadow: 4px 4px 2px gray;
+   
+  
+  
 }
 
 span.last_updated,
@@ -522,18 +530,11 @@ a.badge {
     border-radius: $border-radius;
 }
 
-a.badge:focus,
-a.badge:hover {
-    color: $sta-primary;
-    background-color: white;
-    font-weight: 600;
-}
 
 .badge-light:hover {
-    color: #da532c;
-    background: white;
+   
     text-decoration: none;
-    border: 2px solid #da532c;
+    
     border-radius: $border-radius;
     cursor: pointer;
     transition: color 0.4s ease;
@@ -549,17 +550,12 @@ a.badge:hover {
     transition-timing-function: ease-out;
 }
 
-.tag-cloud a:active,
-.tag-cloud a:focus,
-.tag-cloud a:hover {
-    color: $sta-primary-dark;
-    transform: scale(1.2);
-}
+
 
 .dark .tag-cloud a:active,
 .dark .tag-cloud a:focus,
 .dark .tag-cloud a:hover {
-    color: $sta-primary-light;
+   
 }
 
 
