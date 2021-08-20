@@ -22,7 +22,9 @@ menu:
 weight: 2
 ---
 
-![](https://github.com/ecs-support/knowledge-center/raw/master/img/cover/import-Customs-clearance.png)
+![](../img/import-Customs-clearance.png)
+
+<br>
 
 {{< tabs "uniqueid" >}}
 {{< tab "พิธีการนำเข้าทางบก" >}}
