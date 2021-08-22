@@ -135,3 +135,10 @@
 h2 {
   font-weight:600;
 }
+
+
+
+ul li::marker {
+  font-size: 140%;
+  color: #000;
+}
