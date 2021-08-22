@@ -1,42 +1,39 @@
 {{- define "main" -}}
-
+<div class="container">
 <article class="article py-5" itemscope itemtype="http://schema.org/Article">
 
   {{ partial "page_header.html" . }}
 
   <div class="article-container">
-<button id="myBtn" onclick="topFunction()" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
     <div class="article-style" itemprop="articleBody">
       {{ .Content }}
     </div>
 
-    {{ partial "tags.html" . }}
+   <div class="container">
 
-    {{ if ne .Type "page" }}
-    {{ partial "page_author.html" . }}
-    {{ $related := site.RegularPages.Related . | first 5 }}
-    {{ with $related }}
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>{{ i18n "related" }}</h3>
-      <ul>
-        {{ range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-      </ul>
-    </div>
-    {{ end }}
-    {{ end }}
+     <br> {{ partial "tags.html" . }}
 
-    {{ if site.Params.section_pager }}
-    <div class="article-widget">
-      {{ partial "section_pager.html" . }}
-    </div>
-    {{ end }}
+     {{ partial "page_author.html" . }}
+     {{ $related := site.RegularPages.Related . | first 5 }}
+     {{ with $related }}
 
-    {{ partial "comments.html" . }}
+     <h3>{{ i18n "related" }}</h3>
+     <ul>
+       {{ range . }}
+       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+       {{ end }}
+     </ul>
 
-  </div>
+     <br>
+     <p>Last Update : <span> {{ $.Lastmod.Format site.Params.date_format }}</span></p>
+   </div>
+
+{{ end }}
+   </div>
+  
+
 </article>
-
-{{- end -}}
+</div>
+ </div>
+  {{ end }}

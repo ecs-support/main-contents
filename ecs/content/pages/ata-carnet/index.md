@@ -1,5 +1,4 @@
 ---
-# Course title, summary, and position.
 linktitle: การปฏิบัติพิธีการ A.T.A. CARNET
 summary: การนำเข้าส่งออกชั่วคราว A.T.A Carnet
 
