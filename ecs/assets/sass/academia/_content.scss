@@ -14,7 +14,7 @@ article {
 }
 
 .split-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .split-header .share-box {
@@ -34,7 +34,7 @@ article {
 .split-header-content {
  
   max-width: 85%;
-  padding: 60px 60px 32px 0;
+  padding: 30px 30px 32px 0;
   margin-left: auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -163,8 +163,8 @@ article {
 }
 /* For article page only, not lists. */
 article .article-metadata {
-  margin-bottom: 20px;
-  line-height: 30px; /* Match share bar line height. */
+  margin-bottom: 15px;
+  line-height: 18px; /* Match share bar line height. */
 }
 
 .article-metadata a {
@@ -198,7 +198,7 @@ article .article-metadata {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding: 0;
   max-width:85%;
   height: auto;
@@ -215,8 +215,8 @@ article .article-metadata {
 }
 
 .article-style figure {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .article-style figure img {

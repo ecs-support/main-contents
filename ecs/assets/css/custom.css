@@ -11,7 +11,7 @@
   }
 
   .card-simple> h3> a {
-    margin-top:10px;
+    margin-top:1rem;
     font-size:1rem;
   }
 .card-body {
@@ -44,7 +44,7 @@
   padding-bottom: .8rem;
   padding-top: .8rem;
   background-color: rgba(0, 128, 0, 0.08);
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 #TableOfContents li {
@@ -85,7 +85,7 @@
   vertical-align: middle;
   width: 30%;
   padding: 0 auto;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 
 }
 
@@ -141,4 +141,8 @@ h2 {
 ul li::marker {
   font-size: 140%;
   color: #000;
+}
+
+.article-container {
+  margin-top: 1rem;
 }
