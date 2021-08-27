@@ -142,14 +142,19 @@
 
 [[main]]
   parent = "คลังความรู้"
-  name = "ISO-20007"
-  url = "pages/knowledge/iso/"
+  name = "Project"
+  url = "project/"
   weight = 81
 [[main]]
   parent = "คลังความรู้"
   name = "เอกสารเผยแพร่"
   url = "docs/"
   weight = 82
+[[main]]
+  parent = "คลังความรู้"
+  name = "ISO-20007"
+  url = "pages/knowledge/iso/"
+  weight = 83
 
 [[main]]
   name = "FAQ"

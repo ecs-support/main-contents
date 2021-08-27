@@ -146,3 +146,14 @@ ul li::marker {
 .article-container {
   margin-top: 1rem;
 }
+
+.header-project {
+  margin-top:50px;
+
+}
+
+div.inset {
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+   margin-top: 20px;
+}

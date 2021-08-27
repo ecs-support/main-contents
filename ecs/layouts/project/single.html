@@ -1,15 +1,17 @@
 {{- define "main" -}}
 
-<article class="article article-project py-5" itemscope itemtype="http://schema.org/Article">
+<article class="article py-5" itemscope itemtype="http://schema.org/Article">
 
-  {{ partial "page_header.html" . }}
+  {{ partial "page_project.html" . }}
+
 
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
       {{ .Content }}
     </div>
-
+<br>
+<div class="inset"></div>
     {{ partial "tags.html" . }}
     {{ partial "page_author.html" . }}
 
@@ -65,14 +67,33 @@
       {{ end }}
       {{ end }}
       {{ end }}
-    </div>
+
+
   </div>
+
+
+
+   <br> 
+
+  <div class="article-container">
+   {{ $related := site.RegularPages.Related . | first 5 }}
+   {{ with $related }}
+
+   <h3>{{ i18n "related" }}</h3>
+   <ul>
+     {{ range . }}
+     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+     {{ end }}
+   </ul>
+
+  </div>
+  </div>
+ {{ end }}
+ 
+ </div>
+  </div>
+     
 </article>
 
-{{ if site.Params.section_pager }}
-<div class="article-container article-widget">
-  {{ partial "section_pager.html" . }}
-</div>
-{{ end }}
 
 {{- end -}}
