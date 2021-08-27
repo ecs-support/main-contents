@@ -59,7 +59,7 @@
       {{ if eq site.Params.projects.talk_view 1 }}
       {{ partial "li_list" . }}
       {{ else if eq site.Params.projects.talk_view 3 }}
-      {{ partial "li_card" . }}
+      {{ partial "li_publ" . }}
       {{ else }}
       {{ partial "li_compact" . }}
       {{ end }}
