@@ -1,37 +1,26 @@
 ---
+linktitle: กฎหมายที่เกี่ยวข้อง
 title: พระราชบัญญัติ ว่าด้วยการกระทำความผิดเกี่ยวกับคอมพิวเตอร์
 subtitle: พ.ร.บ.คอมพิวเตอร์ หรือ พระราชบัญญัติ ว่าด้วยการกระทำความผิดเกี่ยวกับคอมพิวเตอร์ ฉบับล่าสุดได้มีการประกาศใช้เมื่อเดือนพฤษภาคม พ.ศ.2560 ซึ่งเป็น พ.ร.บ.คอมพิวเตอร์ ฉบับที่ 2
 summary: พ.ร.บ.คอมพิวเตอร์ หรือ พระราชบัญญัติ ว่าด้วยการกระทำความผิดเกี่ยวกับคอมพิวเตอร์ ฉบับล่าสุดได้มีการประกาศใช้เมื่อเดือนพฤษภาคม พ.ศ.2560 ซึ่งเป็น พ.ร.บ.คอมพิวเตอร์ ฉบับที่ 2
 tags:
-- ISO-27001
+- พ.ร.บ.คอมพิวเตอร์
 - กฎหมาย
-categories: ["ISO-27001"]
+categories: ["ISO-27001","กฎหมาย"]
 date: "2021-08-27T00:00:00Z"
+lastmod: "2021-08-27T00:00:00Z"
+draft: false  # Is this a draft? true/false
+toc: false 
+type: series  
 
-# Optional external URL for project (replaces project detail page).
-external_link: ""
+authors: ["admin"]
 
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
-  preview_only: true
+menu:
+  iso:
+    parent: มาตรฐาน ISO-27001
+    weight: 20
 
-links:
-- icon: 
-  icon_pack: 
-  name: 
-  url: 
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-
+weight: 20
 ---
 
 ![](featured.jpg)
