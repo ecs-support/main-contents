@@ -2,6 +2,7 @@
 linktitle: Introduction
 # Page metadata.
 title: ระบบการบริหารจัดการความมั่นคงปลอดภัยของสารสนเทศ
+summary: "มาตรฐาน ISO 27001 เป็นมาตรฐานสากลสำหรับระบบการจัดการความปลอดภัยของข้อมูล (Information Security Management Systems  ISMS) จัดทำขึ้นเพื่อให้องค์กรนำข้อกำหนดไปใช้ในการประเมินความเสี่ยง ออกแบบด้านการรักษาความปลอดภัย และการนำไปปฏิบัติ"
 date: "2021-06-16T00:00:00Z"
 lastmod: "2021-06-16T00:00:00Z"
 draft: false # Is this a draft? true/false
