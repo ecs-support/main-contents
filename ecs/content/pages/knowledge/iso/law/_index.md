@@ -17,7 +17,7 @@ authors: ["admin"]
 
 menu:
   iso:
-    parent: มาตรฐาน ISO-27001
+    parent: มาตรฐาน ISO 27001
     weight: 20
 
 weight: 20
