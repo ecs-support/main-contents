@@ -65,9 +65,9 @@
 {{ $i18n = "more_pages" }}
 {{ end }}
 
-<div class="container">
-  <div class="col-12 text-center header-project">
-    <h1 class ="top-title title-docs">{{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}</h1>
+  
+  <div class="col-12 text-center header-docs">
+    <h1 class ="top-title ">{{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}</h1>
     {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
     {{ with $st.Content }}<p>{{ . }}</p>{{ end }}
   </div>

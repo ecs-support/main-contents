@@ -148,9 +148,12 @@ ul li::marker {
 }
 
 .header-seriex,
-.title-docs {
+.header-docs {
   margin-top:50px;
 
+}
+.cont-docs1 {
+  padding-bottom: 1em;
 }
 
 div.inset {

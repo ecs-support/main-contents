@@ -10,7 +10,7 @@ date: "2021-08-20"
 lastMod: "2021-08-20"
 publishDate: "2010-09-03"
 featured: false
-draft:  true
+draft:  false
 type: documents
 
 image:
