@@ -3,7 +3,7 @@ linktitle: ด้านสารสนเทศของหน่วยงาน
 title: ประกาศคณะกรรมการธุรกรรมทางอิเล็กทรอนิกส์ เรื่อง แนวนโยบายและแนวปฏิบัติในการรักษาความมั่นคงปลอดภัยด้านสารสนเทศของหน่วยงานของรัฐ (ฉบับที่ 2) พ.ศ. 2556
 date: "2021-08-16T00:00:00Z"
 lastmod: "2021-08-16T00:00:00Z"
-draft: false # Is this a draft? true/false
+draft:  true # Is this a draft? true/false
 toc: false # Show table of contents? true/false
 type: series # Do not modify.
 categories: ["คลังความรู้","ISO 27001"]

@@ -4,7 +4,7 @@ date: "2021-08-09T00:00:00Z"
 lastmod: "2021-05-09T00:00:00Z"
 
 type: series  # Do not modify.
-
+draft: true  # 
 menu:
   law:
     parent: กฎหมายที่เกี่ยวข้อง

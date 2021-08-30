@@ -9,7 +9,7 @@ tags:
 categories: ["ISO-27001","กฎหมาย"]
 date: "2021-08-27T00:00:00Z"
 lastmod: "2021-08-27T00:00:00Z"
-draft: false  # Is this a draft? true/false
+draft: true  # Is this a draft? true/false
 toc: false 
 type: series  
 

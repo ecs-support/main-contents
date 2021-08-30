@@ -6,11 +6,11 @@ authors:
   - admin
 tags: ["ธุรกรรมทางอิเล็กทรอนิกส์"]
 categories: ["ISO-27001","พระราชบัญญัติ"]
-date: "2021-08-20"
+date: "2008-02-13"
 lastMod: "2021-08-20"
 publishDate: "2008-02-13"
 featured: false
-draft: false
+draft:  false
 type: documents
 
 image:
