@@ -32,30 +32,29 @@
 
 
 <div class="card-simple" itemscope itemtype="http://schema.org/{{$microdata_type}}">
-    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-    {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
-    {{ with $resource }}
-    {{ $image := .Fit (printf " 800x700 %s" $anchor) }}
-    <a href="{{ $item.RelPermalink }}">
-      <img src="{{ $image.RelPermalink }}" class="article-pages img-fluid" itemprop="image" alt="">
-    </a>
-    {{end}}
-  </div>
+  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+  {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
+  {{ with $resource }}
+  {{ $image := .Fit (printf " 800x700 %s" $anchor) }}
+  <a href="{{ $item.RelPermalink }}">
+    <img src="{{ $image.RelPermalink }}" class="article-pages img-fluid" itemprop="image" alt="">
+  </a>
+  {{end}}
+</div>
 
+
+<div class="card-body">
+  <h3 class="article-title mb-1 mt-0" itemprop="name">
+    <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
+  </h3>
+
+
+  {{ with $item.Params.location }}
+  <span class="middot-divider"></span>
+  <span itemprop="location">{{ . }}</span>
+  {{ end }}
+</div>
 <!--
-    <div class="card-body">
-    <h3 class="article-title mb-1 mt-0" itemprop="name">
-      <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
-    </h3>
-   
-   
-      {{ with $item.Params.location }}
-      <span class="middot-divider"></span>
-      <span itemprop="location">{{ . }}</span>
-      {{ end }}
-    </div>
-
- 
     <div class="article-style" itemprop="articleBody">
 
 
@@ -65,6 +64,5 @@
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}
     </div>
     {{ end }}
-  </div>
 </div>
 -->

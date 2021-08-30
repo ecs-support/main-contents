@@ -147,7 +147,8 @@ ul li::marker {
   margin-top: 1rem;
 }
 
-.header-seriex {
+.header-seriex,
+.title-docs {
   margin-top:50px;
 
 }

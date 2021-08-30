@@ -22,3 +22,9 @@ menu:
 
 weight: 20
 ---
+
+{{< rawhtml >}}
+<script> 
+ location.replace("/KM/customs/pages/knowledge/iso/section/")  
+</script>
+{{< /rawhtml >}}

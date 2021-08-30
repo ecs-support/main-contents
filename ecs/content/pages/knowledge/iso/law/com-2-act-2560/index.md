@@ -1,0 +1,39 @@
+---
+title: พระราชบัญญัติว่าด้วยการกระทำความผิดเกี่ยวกับคอมพิวเตอร์ (ฉบับที่ 2) พ.ศ. 2560
+subtitle:
+summary: พระราชบัญญัติว่าด้วยการกระทำความผิดเกี่ยวกับคอมพิวเตอร์ (ฉบับที่ 2) พ.ศ. 2560
+authors:
+  - admin
+tags: ["การกระทำความผิดเกี่ยวกับคอมพิวเตอร์"]
+categories: ["ISO-27001","พระราชบัญญัติ"]
+date: "2021-08-28"
+lastMod: "2021-08-28"
+publishDate: "2017-01-24"
+featured: false
+draft: false
+type: documents
+
+image:
+  placement:
+  caption:
+  focal_point: ""
+  preview_only: true
+---
+
+
+{{< rawhtml >}}
+<br>
+{{< /rawhtml >}}
+{{< gdocs src= "./docs.pdf" >}}
+{{< rawhtml >}}
+<br>
+
+
+<div class="article-tags">
+<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
+
+</div>
+ <br>
+{{< /rawhtml >}}
+
+> ที่มา : [สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์](https://ictlawcenter.etda.or.th/laws/detail/computer-crime-2-act-2560)
