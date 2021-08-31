@@ -7,7 +7,7 @@ headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "กฎหมายที่เกี่ยวข้อง"
+title = ""
 subtitle = ""
 
 [content]

@@ -1,9 +1,10 @@
 {{ $st := .page }}
 {{ $columns := $st.Params.design.columns | default "2" }}
 
+<div class="container header-docs">
 <div class="row">
   {{ if ne $columns "1" }}
-    <div class="col-12 section-heading text-center">
+    <div class="col-12 section-heading section-tittle text-center">
       {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
       {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
     </div>
@@ -17,4 +18,5 @@
       {{ $st.Content }}
     </div>
   {{ end }}
+</div>
 </div>
