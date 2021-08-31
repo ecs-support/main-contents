@@ -19,7 +19,7 @@ image:
   focal_point: ""
   preview_only: true
 ---
-
+![](featured.png)
 
 
 {{< gdocs src="./docs.pdf" >}}
