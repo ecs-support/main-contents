@@ -133,13 +133,13 @@
 [[main]]
   parent = "คลังความรู้"
   name = "ISO 27001"
-  url = "pages/knowledge/iso"
+  url = "pages/knowledge/iso/"
   weight = 71
 
 [[main]]
   parent = "คลังความรู้"
-  name = "เอกสารน่ารู้"
-  url = "docs/"
+  name = "เอกสารเผยแพร่"
+  url = "pages/docs/section/"
   weight = 72
  
 [[main]]

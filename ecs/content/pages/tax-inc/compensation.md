@@ -227,6 +227,4 @@ weight: 6
 
 
 <!-- ศึกษาเพิ่มเติม
--  http://www.fpo.go.th/main/getattachment/General-information-public-service/Tax-Policy-Journal/8827/01-1-TaxJournalV02-08_Final.pdf.aspx  
--  
--  -> 
+-  http://www.fpo.go.th/main/getattachment/General-information-public-service/Tax-Policy-Journal/8827/01-1-TaxJournalV02-08_Final.pdf.asp --> 
