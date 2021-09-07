@@ -36,4 +36,6 @@ image:
  <br>
 {{< /rawhtml >}}
 
+- [กลับเมนูหลัก](../../section/)
+
 > ที่มา : [สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์](https://ictlawcenter.etda.or.th/laws/detail/copyright-4-act-2561)

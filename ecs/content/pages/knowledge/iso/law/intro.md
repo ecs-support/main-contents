@@ -11,7 +11,7 @@ date: "2021-08-27T00:00:00Z"
 lastmod: "2021-08-27T00:00:00Z"
 draft: true  # Is this a draft? true/false
 toc: false 
-type: series  
+type: 
 
 authors: ["admin"]
 
