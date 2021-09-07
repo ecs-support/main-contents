@@ -23,5 +23,4 @@ image:
 
 ![](img.png)
 
-
-ที่มา : [กรมศุลกากร](http://www.customs.go.th/data_files/68386b152eab9440f2ce3abdeb0de4e5.pdf)
+ที่่มา : [กรมศุลกากร](http://www.customs.go.th/data_files/68386b152eab9440f2ce3abdeb0de4e5.pdf)
