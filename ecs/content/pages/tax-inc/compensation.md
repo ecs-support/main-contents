@@ -213,6 +213,8 @@ weight: 6
 | 4.   | [กำหนดอัตราเงินชดเชยค่าภาษีอากร ที่ อ1/2560](http://www.customs.go.th/cont_strc_download.php?lang=th&top_menu=menu_homepage&current_id=14223132414b505e4e464b46464b49)  | 22 สิงหาคม 2560 |   
 | 5.   | [กำหนดอัตราเงินชดเชยค่าภาษีอากร ที่ อ2/2560](http://www.customs.go.th/cont_strc_download.php?lang=th&top_menu=menu_homepage&current_id=14223132414b505e4e464b46464b4a) | 22 สิงหาคม 2560 | 
 | 6.   | [กำหนดอัตราเงินชดเชยค่าภาษีอากร ที่ อ3/2560](http://www.customs.go.th/cont_strc_download.php?lang=th&top_menu=menu_homepage&current_id=14223132414b505e4e464b46464b4b) | 22 สิงหาคม 2560 |  
+| 7.   | [คู่มือการดำเนินธุรกรรมทางอิเล็กทรอนิกส์สำหรับการชดเชยค่าภาษีอากรด้วยบัตรภาษีอิเล็กทรอนิกส์](../DigitalTaxCompensation.pdf) |  | 
+| 8.   | [พระราชบัญญัติชดเชยค่าภาษีอากร สินค้าส่งออกที่ผลิตในราชอาณาจักร พ.ศ. 2524](../compensation_2524.pdf) |  | 
 
 
 
