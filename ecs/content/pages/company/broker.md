@@ -15,9 +15,9 @@ authors: ["admin"]
 menu:
   company:
     parent: ผู้ประกอบการ
-    weight: 2
+    weight: 3
 
-weight: 2
+weight: 3
 ---
 ![](../broker.jpg)
 
