@@ -27,7 +27,7 @@ subtitle = ""
 
   [content.filters]
     tag = ""
-    category = "ISO-27001"
+    category = "HS-2022"
     publication_type = ""
     exclude_featured = false
     exclude_past = false
