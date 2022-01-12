@@ -20,7 +20,7 @@ weight: 23
 
 ![](../img/thai-australia.png)
 
-{{% toc %}}
+{{< toc >}}
 
 {{< hint success >}}
 - มีผล 1 มกราคม 2548

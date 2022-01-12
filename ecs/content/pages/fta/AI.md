@@ -21,7 +21,7 @@ weight: 8
 
 ![](../img/asean_india.png)
 
-{{% toc %}}
+{{< toc >}}
 
 
 ## ความเป็นมา

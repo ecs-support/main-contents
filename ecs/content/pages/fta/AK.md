@@ -20,7 +20,7 @@ weight: 6
 
 ![](../img/asian-korea.png)
 
-{{% toc %}}
+{{< toc >}}
 
 
 ## ความเป็นมา

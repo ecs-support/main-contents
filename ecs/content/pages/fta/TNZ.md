@@ -20,7 +20,7 @@ weight: 22
 
 ![](../img/thai-new-zealand.png)
 
-{{% toc %}}
+{{< toc >}}
 
 
 ## ความเป็นมา
