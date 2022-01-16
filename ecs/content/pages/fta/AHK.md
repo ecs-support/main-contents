@@ -24,7 +24,7 @@ weight: 7
 
 
 
-{{% toc %}}
+{{< toc >}}
 
 
 ## ความเป็นมา
@@ -111,6 +111,7 @@ weight: 7
 
 #### ประกาศกระทรวงการคลัง
 
+-   [ประกาศกระทรวงการคลัง เรื่อง การยกเว้นอากรและลดอัตราอากรศุลกากรสำหรับเขตการค้าเสรีอาเซียน-ฮ่องกง ลงวันที่ 28 ธันวาคม 2564](https://www.customs.go.th/cont_strc_download.php?lang=th&current_id=142329324146505f47464b4a464a4f)
 - [ประกาศกระทรวงการคลัง เรื่อง การยกเว้นอากรและลดอัตราอากรศุลกากรสำหรับเขตการค้าเสรีอาเซียน-ฮ่องกง](http://www.customs.go.th/cont_strc_download.php?lang=th&current_id=142328324147505f47464b46464b4d)
 
 {{< /tab >}}
@@ -121,6 +122,15 @@ weight: 7
 
 |เลขที่|รายละเอียด|
 |-------|----------------|
+|233/.2564|[หลักเกณฑ์และพิธีการการยกเว้นอากรและลดอัตราศุลกากรสำหรับเขตการค้าเสรีอาเซียน-ฮ่องกง](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142329324146505f46464b47464b4d)|
+|193/.2564|[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 89/2562](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142329324146505e4f464b46464b49)|
+|149/.2564|[การแสดงหนังสือรับรองถิ่นกำเนิดสินค้าและคำรับรองถิ่นกำเนิดสินค้า สำหรับผู้นำของเข้า ที่ได้รับผลกระทบจากการแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019 (โควิด-19](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=14232932404f505f46464b4a464b4a)|
+|50/.2564|[การแสดงหนังสือรับรองถิ่นกำเนิดสินค้า สำหรับผู้นำของเข้าที่ได้รับผลกระทบจากการแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019(โควิด-19)](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=14232832414d505f4b464b4d464b48)|
+|27/.2564|[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 89/2562](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=14232832414d505f48464b47464a4f)|
+|203/.2563|[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 89/2562](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=14232832414c505f46464a4f464b4d)|
+|107/.2563|[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 89/2562](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=14232832414b505f46464b4d464b4a)|
+|93/.2563|[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 89/2562](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=14232832414a505f4d464b4a464b4c)|
+|57/.2563|[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 89/2562](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=14232832414a505e4f464b4a464b4c)|
 |89./2562|- [ หลักเกณฑ์และพิธีการการยกเว้นอากรและลดอัตราอากรศุลกากรสำหรับเขตการค้าเสรีอาเซียน-ฮ่องกง](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142328324147505f47464b49464b49)|
 
 
