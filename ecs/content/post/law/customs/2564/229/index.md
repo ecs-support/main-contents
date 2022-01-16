@@ -1,21 +1,18 @@
 ---
-title: หลักเกณฑ์และพิธีการการยกเว้นอากรสำหรับของที่มีถิ่นกำเนิดจากประเทศพัฒนาน้อยที่สุด
-subtitle: ประกาศกรมศุลกากร ที่ 180./2564 เรื่อง หลักเกณฑ์และพิธีการการยกเว้นอากรสำหรับของที่มีถิ่นกำเนิดจากประเทศพัฒนาน้อยที่สุด
-summary: ประกาศกรมศุลกากร ที่ 180./2564 เรื่อง หลักเกณฑ์และพิธีการการยกเว้นอากรสำหรับของที่มีถิ่นกำเนิดจากประเทศพัฒนาน้อยที่สุด
+title: หลักเกณฑ์และพิธีการการยกเว้นอากรและลดอัตราอากรศุลกากรสำหรับของที่มีถิ่นกำเนิดจากอาเซียน
+subtitle: ประกาศกรมศุลกากร ที่ 229/.2564 เรื่อง หลักเกณฑ์และพิธีการการยกเว้นอากรและลดอัตราอากรศุลกากรสำหรับของที่มีถิ่นกำเนิดจากอาเซียน
+summary: ประกาศกรมศุลกากร ที่ 229/.2564 เรื่อง หลักเกณฑ์และพิธีการการยกเว้นอากรและลดอัตราอากรศุลกากรสำหรับของที่มีถิ่นกำเนิดจากอาเซียน
 authors:
   - admin
-tags: ["ประเทศพัฒนาน้อยที่สุด"]
+tags: ["ASEAN","ATIGA"]
 categories: ["ประกาศกรมศุลกากร"]
-date: "2021-11-26"
-publishDate: "2021-11-22"
-date: "2021-11-26"
+date: "2021-12-29"
+publishDate: "2021-12-29"
+date: "2021-12-29"
 featured: false
 draft: false
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
-# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+
 image:
   placement:
   caption: ""
@@ -25,13 +22,21 @@ image:
 
 ![](featured.png)
 
-
-
-
+{{< rawhtml >}}
+<br>
 <br>
 
-{{< gdocs src="./docs.pdf" >}}
+{{< /rawhtml >}}
+**ประกาศกรมศุลกากร ที่ 229/.2564 เรื่อง หลักเกณฑ์และพิธีการการยกเว้นอากรและลดอัตราอากรศุลกากรสำหรับของที่มีถิ่นกำเนิดจากอาเซียน**
 
+
+{{< rawhtml >}}
+<br>
+
+
+{{< /rawhtml >}}
+
+{{< gdocs src="./docs.pdf" >}}
 
 {{< rawhtml >}}
 <br>
@@ -45,4 +50,4 @@ image:
 
 {{< /rawhtml >}}
 
-> ที่มา : [กรมศุลกากร](https://www.customs.go.th/cont_strc_simple_with_date.php?current_id=14232932404f505f4c464b4c464a4f)
+> ที่มา : [กรมศุลกากร](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142329324146505f46464b48464b46)
