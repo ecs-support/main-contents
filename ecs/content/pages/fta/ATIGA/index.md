@@ -49,7 +49,62 @@ weight: 4
 1. สิงคโปร์
 1. อินโดนีเซีย
 
+## หลักเกณฑ์และพิธีการศุลกากรสำหรับของที่มีถิ่นกำเนิดจากอาเซียน
 
+**ประกาศกรมศุลกากร ที่ 229/.2564 เรื่อง หลักเกณฑ์และพิธีการการยกเว้นอากรและลดอัตราอากรศุลกากรสำหรับของที่มีถิ่นกำเนิดจากอาเซียน**
+
+![](./img/docsjpg_Page1.jpg)
+![](./img/docsjpg_Page1-1.jpg)
+
+## หมวด 1 เกณฑ์การได้ถิ่นกำเนิดสินค้าและข้อกำหนดการส่งมอบ
+
+![](./img/docsjpg_Page2.jpg)
+![](./img/docsjpg_Page3.jpg)
+![](./img/docsjpg_Page3-1.jpg)
+
+## หมวด 2 การรับรองถิ่นกำเนิดสินค้า
+
+![](./img/docsjpg_Page4.jpg)
+![](./img/docsjpg_Page5.jpg)
+![](./img/docsjpg_Page6.jpg)
+![](./img/docsjpg_Page7.jpg)
+![](./img/docsjpg_Page8.jpg)
+![](./img/docsjpg_Page9-1.jpg)
+
+## หมวด 3 การปฏิบัติพิธีการศุลกากรสำหรับผู้นำของเข้า
+
+![](./img/docsjpg_Page9-2.jpg)
+![](./img/docsjpg_Page10.jpg)
+![](./img/docsjpg_Page11.jpg)
+![](./img/docsjpg_Page12.jpg)
+![](./img/docsjpg_Page13.jpg)
+![](./img/docsjpg_Page14.jpg)
+![](./img/docsjpg_Page15.jpg)
+![](./img/docsjpg_Page16.jpg)
+![](./img/docsjpg_Page17.jpg)
+![](./img/docsjpg_Page18.jpg)
+![](./img/docsjpg_Page19.jpg)
+
+---
+## เอกสารแนบ
+
+-	[บทที่ 3 กฏว่าด้วยถิ่นกําเนิดสินค้า](./Attachments/Attachments_01.pdf)  
+-	[ภาคผนวก 5 หลักเกณฑ์และแนวทางสําหรับการคํานวณสัดส่วนมูลค่าการผลิต ในภูมิภาค](./Attachments/Attachments_02.pdf)  
+-	[ภาคผนวก 6 แนวทางการปฏิบัติสําหรับการสะสมถิ่นกําเนิดแบบบางส่วน (Partial Cumulation) ภายใต้ข้อ 30 (2) ของกฏว่าด้วยถิ่นกําเนิดสินค้าแบบ สะสมของอาเซียน](./Attachments/Attachments_03.pdf)  
+-	[ภาคผนวก 3 กฏเฉพาะรายสินค้า](./Attachments/Attachments_04.pdf)  
+-	[เอกสารแนบ 1 ของภาคผนวก 3 การเปลี่ยนรูปสินค้าในสาระสําคัญ สําหรับสิ่งทอและผลิตภัณฑ์สิ่งทอ](./Attachments/Attachments_05.pdf)  
+-	[ภาคผนวก 4 สินค้าเทคโนโลยีสารสนเทศ ตามพิกัดศุลกากรฮาร์โมในซ์อาเซียน (AHTN) ฉบับปี 2017](./Attachments/Attachments_06.pdf)  
+-	[ภาคผนวก 8 ระเบียบปฏิบัติเกี่ยวกับหนังสือรับรองถิ่นกําเนิดสินค้า](./Attachments/Attachments_07.pdf)  
+-	[ภาคผนวก 7 หนังสือรับรองถิ่นกําเนิดสินค้า](./Attachments/Attachments_08.pdf)  
+-	Electronic ATIGA Form D Process Specification and Message Implementation Guideline  
+   1. [Business Process Specification](./Attachments/Attachments_09-1.pdf)  
+   2.  [Message Implementation Guideline](./Attachments/Attachments_09-2.pdf)  
+
+## ภาคผนวก
+
+- [ตารางเปรียบเทียบพิกัดศุลกากรระบบฮาร์โมในซ์ฉบับปี 2017 (HS 2017) เป็น พิกัดศุลกากรระบบฮาร์โมในซ์ ฉบับปี 2022 (HS 2022)](./Attachments/correlation_2017-2022.pdf)  
+
+---
 
 ## ประกาศ / กฎหมาย ที่เกี่ยวข้อง
 
@@ -109,7 +164,7 @@ weight: 4
 
 
 
-### ประกาศที่เกี่ยวข้อง
+## เอกสารเพิ่มเติม
 
 
 - [เอกสารประกอบการบรรยาย การสัมมนาเชิงปฏิบัติการหลักสูตร “การรับรองถิ่นกำเนิดสินค้าด้วยตนเอง (Self - Certification System โครงการที่ 1 และ 2 ) ของอาเซียน](http://www.customs.go.th/cont_strc_simple_with_date.php?current_id=14223132414a505f4d464b4c464b46)
