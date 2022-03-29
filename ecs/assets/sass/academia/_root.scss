@@ -137,7 +137,7 @@ h3.article-title a {
 
 h3.article-title a:hover {
     color:#202020;
-    text-decoration: true;
+    text-decoration: none;
     cursor: pointer;
     transition: color 0.4s ease;
     font-weight: bold;
@@ -146,7 +146,7 @@ h3.article-title a:hover {
 a:hover,
 a:focus {
     color:#202020;
-    text-decoration: true;
+    text-decoration: none;
      cursor: pointer;
      transition: color 0.4s ease;
      font-weight: bold;
@@ -447,7 +447,7 @@ a[data-fancybox] {
 .meta-prev a:hover,
 .meta-next a:hover {
     color:#202020;
-    text-decoration: true;
+    text-decoration: false;
     cursor: pointer;
     transition: color 0.4s ease;
     font-weight: bold;
