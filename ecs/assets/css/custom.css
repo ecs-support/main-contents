@@ -138,9 +138,11 @@ h2 {
 
 
 
-ul li::marker {
+ul>li::marker {
   font-size: 140%;
-  color: #000;
+  color:  orangered;
+ 
+  
 }
 
 .article-container {
@@ -166,3 +168,4 @@ div.inset {
   
   color: #2A4B7C;
 }
+
