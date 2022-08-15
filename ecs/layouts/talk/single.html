@@ -12,24 +12,21 @@
 
     {{ partial "tags.html" . }}
 
-    {{ if ne .Type "docs" }} 
-    
-      {{ partial "page_author.html" . }}
-      
-      {{ $related := site.RegularPages.Related . | first 5 }}
-      {{ with $related }}
-      <div class="article-widget">
-        <div class="hr-light"></div>
-        <h3>{{ i18n "related" }}</h3>
-        <ul>
-          {{ range . }}
-          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
+    {{ if ne .Type "page" }}
+    {{ partial "page_author.html" . }}
+    {{ $related := site.RegularPages.Related . | first 5 }}
+    {{ with $related }}
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>{{ i18n "related" }}</h3>
+      <ul>
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
     {{ end }}
-   
+    {{ end }}
 
     {{ if site.Params.section_pager }}
     <div class="article-widget">
