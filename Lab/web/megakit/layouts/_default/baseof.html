@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+  <!-- ** Basic Page Needs ** -->
+  <meta charset="utf-8">
+  
+  <title>{{ print .Page.Title " | " .Site.Title }}</title>
+  
+
+  <!-- ** Mobile Specific Metas ** -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Agency HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Html5 Agency Template v1.0">
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+
+  
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="/plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="/plugins/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="/plugins/magnific-popup/magnific-popup.css">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  <link rel="stylesheet" href="/plugins/slick/slick-theme.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+
+
+
+  {{ $style := resources.Get "/scss/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+
+  
+  <!--Favicon-->
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!-- Header Start -->
+<header class="navigation">
+  <div class="header-top ">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-2 col-md-4">
+          <div class="header-top-socials text-center text-lg-left text-md-left">
+            {{ if .Site.Data.company.facebook }}
+              <a href="{{ .Site.Data.company.facebook }}" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+            {{ end }}
+            {{ if .Site.Data.company.twitter }}
+              <a href="{{ .Site.Data.company.twitter }}" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+            {{ end }}
+            {{ if .Site.Data.company.pinterest }}
+              <a href="{{ .Site.Data.company.pinterest }}"><i class="fab fa-pinterest-p mr-2 "></i></a></li>
+            {{ end }}
+            {{ if .Site.Data.company.github }}
+              <a href="{{ .Site.Data.company.github }}" aria-label="github"><i class="fab fa-github"></i></a>
+            {{ end }}
+          </div>
+        </div>
+        <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
+          <div class="header-top-info mb-2 mb-md-0">
+            {{ if .Site.Data.company.support.phone }}
+              <a href="tel:{{ .Site.Data.company.support.phone }}">Call Us : <span>{{ .Site.Data.company.support.phone }}</span></a>
+            {{ end }}
+            {{ if .Site.Data.company.support.email }}
+              <a href="mailto:{{ .Site.Data.company.support.email }}"><i class="fas fa-envelope mr-2"></i><span>{{ .Site.Data.company.support.email }}</span></a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{ partial "nav.html" . }}
+</header>
+<!-- Header Close -->
+
+{{ block "main" . }}{{ end }}
+
+{{ partial "footer.html" . }}
+
+<!--Scroll to top-->
+<div id="scroll-to-top" class="scroll-to-top">
+  <span class="icon fa fa-angle-up"></span>
+</div>
+
+
+<!-- 
+Essential Scripts
+=====================================-->
+<!-- Main jQuery -->
+<script src="/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4.3.1 -->
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+<!--  Magnific Popup-->
+<script src="/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Slick Slider -->
+<script src="/plugins/slick/slick.min.js"></script>
+<!-- Counterup -->
+<script src="/plugins/counterup/jquery.waypoints.min.js"></script>
+<script src="/plugins/counterup/jquery.counterup.min.js"></script>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+<script src="/plugins/google-map/map.js" defer></script>
+
+<script src="/js/script.js"></script>
+
+</body>
+
+</html>
