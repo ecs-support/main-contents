@@ -1,7 +1,1 @@
-{{ define "main" }}
-{{ with .Params.intro }}
-{{ partial "bookshop" (slice "intro" .) }}
-{{ end }}
-{{ end }}
-
-
+{{ define "main" }} {{ with .Params.slider }} {{ partial "bookshop" (slice "slider" .) }} {{ end }} {{ end }}
