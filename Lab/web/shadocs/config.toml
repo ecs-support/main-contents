@@ -42,7 +42,7 @@ themesdir              = "themes/"
 
 [Languages]
   [Languages.en]
-    contentDir   = "content/english"
+    contentDir   = "content"
     title        = "Shadocs theme documentation"
     weight       = 1
     languageName = "English"

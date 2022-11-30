@@ -56,12 +56,12 @@
 #
 # Assets list (https://gohugo.io/hugo-pipes/resource-from-template/) to include
 # Managed assets:
-# - sass                  = [List of sass files]
-# - css                   = [List of css files]
+# - sass                  = [List of SASS files]
+# - css                   = [List of CSS files]
 # - js                    = [List of javascript files]
 # - jsModules             = [List of javascript modules]
-# - shortcodes.sass       = [List of sass files to includes when the associated shortcode exist in the page content]
-# - shortcodes.css        = [List of css files to includes when the associated shortcode exist in the page content]
+# - shortcodes.sass       = [List of SASS files to includes when the associated shortcode exist in the page content]
+# - shortcodes.css        = [List of CSS files to includes when the associated shortcode exist in the page content]
 # - shortcodes.js         = [List of javascript files to includes when the associated shortcode exist in the page content]
 # - shortcodes.jsModules  = [List of javascript module files to includes when the associated shortcode exist in the page content]
 #
@@ -95,8 +95,8 @@
   [includes.shortcodes.jsModules]
     asyncapi = [
       "js/shortcodes/asyncapi.js",
-      "js/external/asyncapi/bundle.min.js",
-      "js/external/asyncapi/asyncapi-web-component.min.js"
+      "js/external/asyncapi/bundle.js",
+      "js/external/asyncapi/asyncapi-web-component.js"
     ]
     collapsible = [
       "js/shortcodes/collapsible.js"
