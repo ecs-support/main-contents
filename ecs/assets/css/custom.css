@@ -136,13 +136,9 @@ h2 {
   font-weight:600;
 }
 
-
-
 ul>li::marker {
   font-size: 120%;
-  color:  red; 
-  
-  
+  color:  red;  
 }
 
 ul {
@@ -155,7 +151,6 @@ ul {
 .header-seriex,
 .header-docs {
   margin-top:50px;
-
 }
 .cont-docs1 {
   padding-bottom: 1em;
@@ -167,11 +162,9 @@ div.inset {
    margin-top: 20px;
 }
 
-.section-tittle h1 {
-  
+.section-tittle h1 {  
   color: #2A4B7C;
 }
-
 
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
@@ -208,10 +201,7 @@ img {
   border-radius: 1em;
   background: #ECE9E6;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-
 }
-
-
 
 .card__body {
   padding: 1rem;
@@ -219,7 +209,6 @@ img {
   flex-direction: column;
   gap: .5rem;
 }
-
 
 .tag {
   align-self: flex-start;
@@ -252,11 +241,9 @@ img {
 
 .card__body h4 {
   font-size: 1.2rem;
-  font-weight: 700;
- 
+  font-weight: 700; 
   place-items: center;
-  text-transform: capitalize;
- 
+  text-transform: capitalize; 
 }
 
 .card__footer {
