@@ -139,14 +139,17 @@ h2 {
 
 
 ul>li::marker {
-  font-size: 140%;
-  color:  orangered;
- 
+  font-size: 120%;
+  color:  red; 
+  
   
 }
 
+ul {
+  list-style-type: disc;
+}
 .article-container {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .header-seriex,

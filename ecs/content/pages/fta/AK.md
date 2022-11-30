@@ -83,6 +83,7 @@ weight: 6
 
 |เลขที่|รายละเอียด|
 |-------|----------------|
+|47/.2565|[การแสดงหนังสือรับรองถิ่นกำเนิดสินค้าและคำรับรองถิ่นกำเนิดสินค้า สำหรับผู้นำของเข้าที่ได้รับผลกระทบจากการแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019 (โควิด-19)](https://customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142329324147505e4e464b4c464b48)|
 |234/.2564|[หลักเกณฑ์และพิธีการการยกเว้นอากรและลดอัตราศุลกากรสำหรับเขตการค้าเสรีอาเซียน-สาธารณรัฐเกาหลี](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142329324146505f46464b47464b4c)|
 |149/.2564|[การแสดงหนังสือรับรองถิ่นกำเนิดสินค้าและคำรับรองถิ่นกำเนิดสินค้า สำหรับผู้นำของเข้า ที่ได้รับผลกระทบจากการแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019 (โควิด-19)](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=14232932404f505f46464b4a464b4a)|
 |50/.2564|[การแสดงหนังสือรับรองถิ่นกำเนิดสินค้า สำหรับผู้นำของเข้าที่ได้รับผลกระทบจากการแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019(โควิด-19)](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=14232832414d505f4b464b4d464b48)|
@@ -111,6 +112,7 @@ weight: 6
 -   [ประกาศสำนักพิกัดอัตราศุลกากร ที่ 1./2560 เรื่อง การระบุเกณฑ์ในช่องที่ 8 ของ Form AK กรณีเกณฑ์ร่วม (Combination Rule)](http://www.customs.go.th/cont_strc_download.php?lang=th&current_id=14223132414b505f48464b4d464b4b)
 -   [ประกาศกองพิกัดอ้ตราศุลกากร ที่ 3/.2563 เรื่อง เว็บไซต์สำหรับตรวจสอบหนังสือรับรองถิ่นกำเนิดสินค้า](http://www.customs.go.th/cont_strc_download.php?lang=th&current_id=14232832414a505f4c464b48464b46)
 -   [ประกาศกองพิกัดอัตราศุลกากร ที่ 4/.2563 เรื่อง การใช้บัญชีราคาสินค้า (Invoice) ฉบับซื้อขายในประเทศ ประกอบการปฏิบัติพิธีการศุลกากร เพื่อขอรับสิทธิพิเศษทางภาษีศุลกากรภายใต้ความตกลงเขตการค้าเสรี](http://www.customs.go.th/cont_strc_download.php?lang=th&current_id=14232832414b505e4e464b48464b49)
+- [ประกาศกองพิกัดอัตราศุลกากร ที่ 9/2565 เรื่อง ตารางปัญหาและแนวทางแก้ไขการใช้หลักฐานการรับรองถิ่นกำเนิดสินค้าภายใต้ความตกลงการค้าเสรี](https://customs.go.th/cont_strc_download.php?lang=th&current_id=142329324147505f49464a4f464b47)
 
 
 {{< /tab >}}
@@ -124,4 +126,4 @@ weight: 6
 >- หมายเลขโทรศัพท์ : 0-2667-7014 หรือ 0-2667-6459  
 >- อีเมล์ : 80150000@customs.go.th
 
->ที่มาบทความ : [กรมศุลกากร](http://www.customs.go.th/cont_strc_simple_net_with_download.php?ini_content=usage_fta_and_wto_01_04&ini_menu=menu_interest_and_law_160421_01&left_menu=menu_fta_and_wto)
+>ที่มาบทความ : [กรมศุลกากร](https://customs.go.th/cont_strc_simple_net_with_download.php?ini_content=usage_fta_and_wto_01_04&ini_menu=menu_interest_and_law_160421_01&left_menu=menu_fta_and_wto)
