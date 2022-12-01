@@ -10,7 +10,7 @@ metaDataFormat         = "yaml"
 publishDir             = "public"
 title                  = "Shadocs theme for Hugo"
 theme                  = "shadocs"
-themesdir              = "../.."
+themesdir              = "themes/"
 
 [Author]
   name = "Jordan GAZEAU"
