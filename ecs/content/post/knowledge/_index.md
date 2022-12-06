@@ -1,5 +1,5 @@
 ---
-title: สาระความรู้
+title: บทความน่ารู้
 
 # View.
 #   1 = List
@@ -9,6 +9,6 @@ view: 3
 
 # Optional header image (relative to `static/img/` folder).
 header:
-  caption: ""
+  caption: "บทความน่ารู้"
   image: ""
 ---
