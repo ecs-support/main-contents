@@ -5,9 +5,7 @@
  *  In-built Fuse based search algorithm.
  **************************************************/
 
-/* ---------------------------------------------------------------------------
-* Configuration.
-* --------------------------------------------------------------------------- */
+
 
 // Configure Fuse.
 let fuseOptions = {
@@ -32,9 +30,7 @@ let fuseOptions = {
 // Configure summary.
 let summaryLength = 60;
 
-/* ---------------------------------------------------------------------------
-* Functions.
-* --------------------------------------------------------------------------- */
+
 
 // Get query from URI.
 function getSearchQuery(name) {
@@ -144,9 +140,7 @@ function render(template, data) {
   return template;
 }
 
-/* ---------------------------------------------------------------------------
-* Initialize.
-* --------------------------------------------------------------------------- */
+
 
 // If academia's in-built search is enabled and Fuse loaded, then initialize it.
 if (typeof Fuse === 'function') {
