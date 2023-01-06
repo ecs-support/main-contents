@@ -98,7 +98,7 @@ zoom = 15
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_css = ["custom"]
-plugins_js  = []
+plugins_js  = ["custom"]
 
 ############################
 ## Advanced options       ##
@@ -140,7 +140,7 @@ sharing = false
   #   3: Card
   #   4: Citation (publications only)
   post_view = 3
-  publication_view = 3
+  publication_view = 2
   talk_view = 1
 
 # Search.
