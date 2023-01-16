@@ -11,8 +11,8 @@
    * --------------------------------------------------------------------------- */
 
   // Dynamically get responsive navigation bar offset.
-  var $navbar = $(".navbar");
-  var navbar_offset = $navbar.innerHeight();
+  let $navbar = $(".navbar");
+  let navbar_offset = $navbar.innerHeight();
 
   /**
    * Responsive hash scrolling.
@@ -46,8 +46,8 @@
 
   // Make Scrollspy responsive.
   function fixScrollspy() {
-    var $body = $("body");
-    var data = $body.data("bs.scrollspy");
+    let $body = $("body");
+    let data = $body.data("bs.scrollspy");
     if (data) {
       data._config.offset = navbar_offset;
       $body.data("bs.scrollspy", data);
@@ -57,7 +57,7 @@
 
   function removeQueryParamsFromUrl() {
     if (window.history.pushState) {
-      var urlWithoutSearchParams =
+      let urlWithoutSearchParams =
         window.location.protocol +
         "//" +
         window.location.host +
@@ -73,45 +73,12 @@
     }
   }
 
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
-
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight) {
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      }
-    });
-  }
-
-
-    var colla = document.getElementsByClassName("ollapse");
-    var i;
-
-    for (i = 0; i < colla.length; i++) {
-      colla[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        }
-      });
-    }
-
-
-
   // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
   window.addEventListener("hashchange", scrollToAnchor);
 
-  /* ---------------------------------------------------------------------------*/
-  //  Add smooth scrolling to all links inside the main navbar.
-   /* --------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------
+   * Add smooth scrolling to all links inside the main navbar.
+   * --------------------------------------------------------------------------- */
 
   // animation scroll js
   var html_body = $("html, body");
@@ -139,6 +106,23 @@
     }
   });
 
+  // Collapsible
+
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+
   // easeInOutExpo Declaration
   jQuery.extend(jQuery.easing, {
     easeInOutExpo: function (x, t, b, c, d) {
@@ -155,13 +139,13 @@
     },
   });
 
-  /* ---------------------------------------------------------------------------*/
-  /* Hide mobile collapsable menu on clicking a link.  */
-  /* ---------------------------------------------------------------------------*/
+  /* ---------------------------------------------------------------------------
+   * Hide mobile collapsable menu on clicking a link.
+   * --------------------------------------------------------------------------- */
 
   $(document).on("click", ".navbar-collapse.show", function (e) {
     //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
-    var targetElement = $(e.target).is("a")
+    let targetElement = $(e.target).is("a")
       ? $(e.target)
       : $(e.target).parent();
 
@@ -173,21 +157,21 @@
     }
   });
 
-  /* --------------------------------------------------------------------------- */
-//   Filter publications.         
-   /* --------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------
+   * Filter publications.
+   * --------------------------------------------------------------------------- */
 
   // Active publication filters.
-  var pubFilters = {};
+  let pubFilters = {};
 
   // Search term.
-  var searchRegex;
+  let searchRegex;
 
   // Filter values (concatenated).
-  var filterValues;
+  let filterValues;
 
   // Publication container.
-  var $grid_pubs = $("#container-publications");
+  let $grid_pubs = $("#container-publications");
 
   // Initialise Isotope.
   $grid_pubs.isotope({
@@ -198,15 +182,15 @@
       columnWidth: ".grid-sizer",
     },
     filter: function () {
-      var $this = $(this);
-      var searchResults = searchRegex ? $this.text().match(searchRegex) : true;
-      var filterResults = filterValues ? $this.is(filterValues) : true;
+      let $this = $(this);
+      let searchResults = searchRegex ? $this.text().match(searchRegex) : true;
+      let filterResults = filterValues ? $this.is(filterValues) : true;
       return searchResults && filterResults;
     },
   });
 
   // Filter by search term.
-  var $quickSearch = $(".filter-search").keyup(
+  let $quickSearch = $(".filter-search").keyup(
     debounce(function () {
       searchRegex = new RegExp($quickSearch.val(), "gi");
       $grid_pubs.isotope();
@@ -215,12 +199,12 @@
 
   // Debounce input to prevent spamming filter requests.
   function debounce(fn, threshold) {
-    var timeout;
+    let timeout;
     threshold = threshold || 100;
     return function debounced() {
       clearTimeout(timeout);
-      var args = arguments;
-      var _this = this;
+      let args = arguments;
+      let _this = this;
 
       function delayed() {
         fn.apply(_this, args);
@@ -231,18 +215,18 @@
 
   // Flatten object by concatenating values.
   function concatValues(obj) {
-    var value = "";
-    for (var prop in obj) {
+    let value = "";
+    for (let prop in obj) {
       value += obj[prop];
     }
     return value;
   }
 
   $(".pub-filters").on("change", function () {
-    var $this = $(this);
+    let $this = $(this);
 
     // Get group key.
-    var filterGroup = $this[0].getAttribute("data-filter-group");
+    let filterGroup = $this[0].getAttribute("data-filter-group");
 
     // Set filter for group.
     pubFilters[filterGroup] = this.value;
@@ -256,7 +240,7 @@
     // If filtering by publication type, update the URL hash to enable direct linking to results.
     if (filterGroup == "pubtype") {
       // Set hash URL to current filter.
-      var url = $(this).val();
+      let url = $(this).val();
       if (url.substr(0, 9) == ".pubtype-") {
         window.location.hash = url.substr(9);
       } else {
@@ -267,8 +251,8 @@
 
   // Filter publications according to hash in URL.
   function filter_publications() {
-    var urlHash = window.location.hash.replace("#", "");
-    var filterValue = "*";
+    let urlHash = window.location.hash.replace("#", "");
+    let filterValue = "*";
 
     // Check if hash is numeric.
     if (urlHash != "" && !isNaN(urlHash)) {
@@ -276,7 +260,7 @@
     }
 
     // Set filter.
-    var filterGroup = "pubtype";
+    let filterGroup = "pubtype";
     pubFilters[filterGroup] = filterValue;
     filterValues = concatValues(pubFilters);
 
@@ -288,20 +272,20 @@
   }
 
   /* ---------------------------------------------------------------------------
-   * Google Maps or OpenStreetMap via Leafvar.
+   * Google Maps or OpenStreetMap via Leaflet.
    * --------------------------------------------------------------------------- */
 
   function initMap() {
     if ($("#map").length) {
-      var map_provider = $("#map-provider").val();
-      var lat = $("#map-lat").val();
-      var lng = $("#map-lng").val();
-      var zoom = parseInt($("#map-zoom").val());
-      var address = $("#map-dir").val();
-      var api_key = $("#map-api-key").val();
+      let map_provider = $("#map-provider").val();
+      let lat = $("#map-lat").val();
+      let lng = $("#map-lng").val();
+      let zoom = parseInt($("#map-zoom").val());
+      let address = $("#map-dir").val();
+      let api_key = $("#map-api-key").val();
 
       if (map_provider == 1) {
-        var map = new GMaps({
+        let map = new GMaps({
           div: "#map",
           lat: lat,
           lng: lng,
@@ -323,7 +307,7 @@
           lat: lat,
           lng: lng,
           click: function (e) {
-            var url =
+            let url =
               "https://www.google.com/maps/place/" +
               encodeURIComponent(address) +
               "/@" +
@@ -336,7 +320,7 @@
           title: address,
         });
       } else {
-        var map = new L.map("map").setView([lat, lng], zoom);
+        let map = new L.map("map").setView([lat, lng], zoom);
         if (map_provider == 3 && api_key.length) {
           L.tileLayer(
             "https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}",
@@ -355,8 +339,8 @@
               '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
           }).addTo(map);
         }
-        var marker = L.marker([lat, lng]).addTo(map);
-        var url =
+        let marker = L.marker([lat, lng]).addTo(map);
+        let url =
           lat +
           "," +
           lng +
@@ -377,25 +361,25 @@
     }
   }
 
-  /* ---------------------------------------------------------------------------*/
-//  GitHub API.
-   /* --------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------
+   * GitHub API.
+   * --------------------------------------------------------------------------- */
 
   function printLatestRelease(selector, repo) {
     $.getJSON("https://api.github.com/repos/" + repo + "/tags")
       .done(function (json) {
-        var release = json[0];
+        let release = json[0];
         $(selector).append(" " + release.name);
       })
       .fail(function (jqxhr, textStatus, error) {
-        var err = textStatus + ", " + error;
+        let err = textStatus + ", " + error;
         console.log("Request Failed: " + err);
       });
   }
 
-  /* ---------------------------------------------------------------------------*/
-   // Toggle search dialog.
-   /* --------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------
+   * Toggle search dialog.
+   * --------------------------------------------------------------------------- */
 
   function toggleSearchDialog() {
     if ($("body").hasClass("searching")) {
@@ -419,9 +403,9 @@
     }
   }
 
-  /* ---------------------------------------------------------------------------*/
-   // Toggle day/night mode.
-   /* --------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------
+   * Toggle day/night mode.
+   * --------------------------------------------------------------------------- */
 
   function toggleDarkMode(
     codeHlEnabled,
@@ -478,18 +462,18 @@
     }
   }
 
-  /* ---------------------------------------------------------------------------*/
-  // Normalize Bootstrap Carousel Slide Heights.
- /*--------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------
+   * Normalize Bootstrap Carousel Slide Heights.
+   * --------------------------------------------------------------------------- */
 
   function normalizeCarouselSlideHeights() {
     $(".carousel").each(function () {
       // Get carousel slides.
-      var items = $(".carousel-item", this);
+      let items = $(".carousel-item", this);
       // Reset all slide heights.
       items.css("min-height", 0);
       // Normalize all slide heights.
-      var maxHeight = Math.max.apply(
+      let maxHeight = Math.max.apply(
         null,
         items
           .map(function () {
@@ -501,9 +485,9 @@
     });
   }
 
-  /* ---------------------------------------------------------------------------*/
-   //  On document ready.
-   /* --------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------
+   * On document ready.
+   * --------------------------------------------------------------------------- */
 
   $(document).ready(function () {
     // Fix Hugo's auto-generated Table of Contents.
@@ -514,11 +498,11 @@
     $("#TableOfContents li a").addClass("nav-link");
 
     // Set dark mode if user chose it.
-    var default_mode = 0;
+    let default_mode = 0;
     if ($("body").hasClass("dark")) {
       default_mode = 1;
     }
-    var dark_mode = parseInt(localStorage.getItem("dark_mode") || default_mode);
+    let dark_mode = parseInt(localStorage.getItem("dark_mode") || default_mode);
 
     // Is code highlighting enabled in site config?
     const codeHlEnabled = $("link[title=hl-light]").length > 0;
@@ -559,9 +543,9 @@
     });
   });
 
-  /* ---------------------------------------------------------------------------*/
-  // * On window loaded.
-   /* --------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------
+   * On window loaded.
+   * --------------------------------------------------------------------------- */
 
   $(window).on("load", function () {
     if (window.location.hash) {
@@ -571,20 +555,20 @@
       } else if (!$(".projects-container").length) {
         // If URL contains a hash and there are no dynamically loaded images on the page,
         // immediately scroll to target ID taking into account responsive offset.
-        // Otherwise, wait for `imagesLoaded()` to compvare before scrolling to hash to prevent scrolling to wrong
+        // Otherwise, wait for `imagesLoaded()` to complete before scrolling to hash to prevent scrolling to wrong
         // location.
         scrollToAnchor();
       }
     }
 
     // Initialize Scrollspy.
-    var $body = $("body");
+    let $body = $("body");
     $body.scrollspy({
       offset: navbar_offset,
     });
 
     // Call `fixScrollspy` when window is resized.
-    var resizeTimer;
+    let resizeTimer;
     $(window).resize(function () {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(fixScrollspy, 200);
@@ -592,9 +576,9 @@
 
     // Filter projects.
     $(".projects-container").each(function (index, container) {
-      var $container = $(container);
-      var $section = $container.closest("section");
-      var layout;
+      let $container = $(container);
+      let $section = $container.closest("section");
+      let layout;
       if ($section.find(".isotope").hasClass("js-layout-row")) {
         layout = "fitRows";
       } else {
@@ -614,7 +598,7 @@
 
         // Filter items when filter link is clicked.
         $section.find(".project-filters a").click(function () {
-          var selector = $(this).attr("data-filter");
+          let selector = $(this).attr("data-filter");
           $container.isotope({
             filter: selector,
           });
@@ -647,13 +631,13 @@
     // Load citation modal on 'Cite' click.
     $(".js-cite-modal").click(function (e) {
       e.preventDefault();
-      var filename = $(this).attr("data-filename");
-      var modal = $("#modal");
+      let filename = $(this).attr("data-filename");
+      let modal = $("#modal");
       modal
         .find(".modal-body code")
         .load(filename, function (response, status, xhr) {
           if (status == "error") {
-            var msg = "Error: ";
+            let msg = "Error: ";
             $("#modal-error").html(msg + xhr.status + " " + xhr.statusText);
           } else {
             $(".js-download-cite").attr("href", filename);
@@ -666,8 +650,8 @@
     $(".js-copy-cite").click(function (e) {
       e.preventDefault();
       // Get selection.
-      var range = document.createRange();
-      var code_node = document.querySelector("#modal .modal-body");
+      let range = document.createRange();
+      let code_node = document.querySelector("#modal .modal-body");
       range.selectNode(code_node);
       window.getSelection().addRange(range);
       try {
@@ -684,7 +668,7 @@
     initMap();
 
     // Print latest version of GitHub projects.
-    var githubReleaseSelector = ".js-github-release";
+    let githubReleaseSelector = ".js-github-release";
     if ($(githubReleaseSelector).length > 0)
       printLatestRelease(
         githubReleaseSelector,
