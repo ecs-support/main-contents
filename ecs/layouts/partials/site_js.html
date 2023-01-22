@@ -135,8 +135,9 @@
     {{ $js_linebreak := "\n" | resources.FromString "js/linebreak.js" }}{{/* Fix no line break after Bootstrap JS causing error. */}}
     {{ $js_academia := resources.Get "js/academia.js" }}
     {{ $js_academia_search := resources.Get "js/academia-search.js" }}
-    {{ $js_algolia_search := resources.Get "js/algolia-search.js" }}
+    {{ $js_algolia_search := resources.Get "js/algolia-search.js" }}    
     {{ $js_bootstrap := resources.Get "js/vendor/bootstrap.min.js" }}
+
     {{ $js_bundle := slice $js_bootstrap $js_linebreak $js_academia }}
     {{ if eq site.Params.search.engine 1 }}
       {{ $js_bundle = $js_bundle | append $js_academia_search }}
@@ -148,9 +149,10 @@
     {{ end }}
     {{ $js_bundle := $js_bundle | resources.Concat "js/academia-bundle-pre.js" | minify }}
     {{ $js_bundle := slice $js_bundle_head $js_bundle | resources.Concat "js/academia.min.js" | fingerprint "md5" }}
+    
     <script src="{{ $js_bundle.RelPermalink }}"></script>
 
-
+   
     {{ $js_menutoggle := resources.Get "js/menutoggle.js" }}
     <script src="{{ $js_menutoggle.RelPermalink }}"></script>
 
