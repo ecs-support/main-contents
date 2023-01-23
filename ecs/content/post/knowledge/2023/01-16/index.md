@@ -49,7 +49,7 @@ image:
 {{< /hint>}}
 {{< row_space >}}
 
-{{< gdocs src="./docs.pdf" >}}
+{{< gdocs_width src="./docs.pdf" >}}
 
 
 {{< rawhtml >}}
