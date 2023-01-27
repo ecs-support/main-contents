@@ -9,7 +9,7 @@
 {{ end }}
 <div class="div-btn">
 <a {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" {{ end }}
-  class="btn-downloads-dangers {{ with .Get "class" }} {{ . }}{{ end }}">
+id="download_files_new" class="btn btn-outline-danger {{ with .Get "class" }} {{ . }}{{ end }}">
   {{ $.Inner }}
 </a>
 </div>

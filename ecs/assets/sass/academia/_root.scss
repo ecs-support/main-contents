@@ -573,8 +573,8 @@ a.badge {
     cursor: pointer;
     font-size: 16px;
     font-weight: 400;
-    line-height: 40px;
-    border-radius: .5rem;
+    
+    border-radius: 1rem;
     &:focus {
         box-shadow: none !important;
     }
