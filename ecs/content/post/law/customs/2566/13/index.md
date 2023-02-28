@@ -17,7 +17,7 @@ image:
   placement:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 ---
 
 ![](featured.png)
