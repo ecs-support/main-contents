@@ -147,6 +147,8 @@ nav#navbar-main li.nav-item {
     background-color: transparent;
 }
 
+
+
 @media screen and (max-width: 1200px) {
     .navbar {
         min-height: 50px !important;
@@ -154,12 +156,12 @@ nav#navbar-main li.nav-item {
     .navbar-brand,
     .navbar-nav li.nav-item a.nav-link {
         height: inherit;
-        line-height: 35px;
+        line-height: 30px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
     .navbar-brand img {
-        max-height: 35px;
+        max-height: 30px;
     }
     .navbar-toggler {
         display: block;
