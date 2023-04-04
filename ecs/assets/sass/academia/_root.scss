@@ -89,8 +89,8 @@ h6 {
     font-family: $sta-font-heading, sans-serif;
     font-weight: bold;
     margin-top: .5rem;
-    margin-bottom: 1rem;    
-    color: #2A4B7C;    
+    margin-bottom: 1rem;
+    color: #2A4B7C;
     text-rendering: optimizeLegibility;
     /* Ensure long words do not overflow into content. */
     overflow-wrap: break-word;
@@ -100,14 +100,14 @@ h6 {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
-    
+
 }
 
 h1 {
-   
+
     font-size: 2rem;
     font-weight: 600;
-    
+
 }
 
 h2 {
@@ -117,7 +117,7 @@ h2 {
 }
 
 h3 {
-    margin-top: 1rem;    
+    margin-top: 1rem;
     font-size: 1.5rem;
 }
 
@@ -129,9 +129,9 @@ h6 {
 }
 
 h3.article-title a {
-   font-size: 1.1rem;   
+   font-size: 1.1rem;
    font-weight: 600;
-  
+
 
 }
 
@@ -154,17 +154,17 @@ a:focus {
 
 img,
 video {
-  
-   
-   max-width: 90%;  
+
+
+   max-width: 90%;
    height: auto;
    align-items: center;
    display: block;
    margin-left: auto;
    margin-right: auto;
    margin-top: 1.5rem;
-   margin-bottom: 1.5rem;   
-  
+   margin-bottom: 1.5rem;
+
 }
 
 
@@ -172,7 +172,7 @@ video {
 video {
     max-width: 90%;
     height: auto;
-   
+
 }
 
 .img-fluid {
@@ -261,11 +261,11 @@ hr {
 /* Quotes */
 
 blockquote {
-  
-    
+
+
     border-left: .5rem solid #2A4B7C;
     background: rgba(2, 95, 189, 0.15);
-    font-weight: bold;
+    
       padding-top: 1rem;
       padding-bottom: 1rem;
         margin-top: 1rem;
@@ -520,9 +520,9 @@ footer a #back_to_top i {
 
 .badge-light[href]:focus,
 .badge-light[href]:hover {
-   
-  
-  
+
+
+
 }
 
 span.last_updated,
@@ -539,9 +539,9 @@ a.badge {
 
 
 .badge-light:hover {
-   
+
     text-decoration: none;
-    
+
     border-radius: $border-radius;
     cursor: pointer;
     transition: color 0.4s ease;
@@ -562,7 +562,7 @@ a.badge {
 .dark .tag-cloud a:active,
 .dark .tag-cloud a:focus,
 .dark .tag-cloud a:hover {
-   
+
 }
 
 
@@ -575,7 +575,7 @@ a.badge {
     cursor: pointer;
     font-size: 16px;
     font-weight: 400;
-    
+
     border-radius: 1rem;
     &:focus {
         box-shadow: none !important;
@@ -594,7 +594,7 @@ a.badge {
 
 .btn-links .btn {
     padding: 10px .5rem 10px .5rem;
-   
+
 }
 
 .btn.btn-lg {
@@ -977,7 +977,7 @@ $clouds: #ecf0f1;
 */
 
 .collapsible {
-   
+
     background-color: white;
     color: rgba(0, 0, 0, 0.85);
     font-size: 1.1em;
@@ -995,12 +995,12 @@ $clouds: #ecf0f1;
     font-family: $sta-font-heading, sans-serif;
     border-radius: 10px;
     text-rendering: optimizeLegibility;
-    
+
     vertical-align: middle;
 }
 
 .collapsible-toc {
-   
+
     border-radius: 10px;
     background-color: white;
     color: rgba(0, 0, 0, 0.85);
@@ -1038,7 +1038,7 @@ $clouds: #ecf0f1;
     font-weight: 600;
     float: right;
     margin-left: 3em;
-    
+
 }
 
 .collapsible:hover:after {
@@ -1049,7 +1049,7 @@ $clouds: #ecf0f1;
 .collapsible.active:after {
     content: "\2212";
     color: white;
-  
+
 
 }
 
@@ -1059,7 +1059,7 @@ $clouds: #ecf0f1;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
     /* background-color: rgba(0, 128, 0, 0.1);  */
-    
+
 }
 
 #txt_answer {
