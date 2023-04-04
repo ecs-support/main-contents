@@ -20,7 +20,7 @@ image:
   preview_only: true
 ---
 
-![](featured.jpg)
+
 
 
 ![](img-01.png)
