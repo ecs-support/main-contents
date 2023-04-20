@@ -45,7 +45,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 [outputs]
   home = [ "HTML", "RSS", "JSON" ]
-  section = [ "HTML", "RSS" ]
+  section = [ "HTML", "RSS" ,"JSON" ]
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -67,9 +67,9 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
-   
 
-[markup]  
+
+[markup]
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 4
