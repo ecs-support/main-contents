@@ -61,9 +61,7 @@ image:
 
 {{< gdocs src="./docs.pdf" >}}
 
-
 {{< button href="./docs.pdf" >}}Download{{< /button >}}
-
 
 
 > ที่มา : [กรมศุลกากร](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232932414a505f4a464b4b464b49)

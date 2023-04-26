@@ -44,8 +44,8 @@ footnotereturnlinkcontents = "<sup>Support@ECS^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON" ]
-  section = [ "HTML", "RSS" ,"JSON" ]
+  home = [ "HTML", "RSS" ]
+  section = [ "HTML", "RSS"]
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
