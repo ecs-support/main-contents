@@ -128,7 +128,7 @@ weight: 24
 
 |เลขที่ประกาศ|รายละเอียด|
 |-------|-------------------------------------|
-|151/2565|แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 237/2564](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142329324149505f49464b49464a4e)|
+|151/2565|[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 237/2564](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142329324149505f49464b49464a4e)|
 |150/2565|[แก้ไขเพิ่มเติมประกาศกรมศุลกากร ที่ 237/2564](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142329324149505f49464b48464b4d)|
 |47/2565|[การแสดงหนังสือรับรองถิ่นกำเนิดสินค้าและคำรับรองถิ่นกำเนิดสินค้า สำหรับผู้นำของเข้าที่ได้รับผลกระทบจากการแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019 (โควิด-19)](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142329324147505e4e464b4c464b48)|
 |38/2565|[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 237/2564](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&current_id=142329324146505f4d464b4d464b49)|
