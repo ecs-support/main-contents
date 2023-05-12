@@ -1,6 +1,7 @@
 {{- define "main" -}}
 
 {{ partial "page_header.html" . }}
+{{ partial "head_cdn.html" . }}
 
 
 <div class="universal-wrapper">
@@ -28,9 +29,11 @@
       {{ end }}
       {{ end }}
 
-      {{ partial "pagination" . }}
-
+      <div class="col-lg-12 col-md-12 mb-12 justify-content-right">
+      {{ partial "pagination-02" . }}
+    </div>
 
     </div>
 
     {{- end -}}
+

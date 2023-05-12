@@ -5,9 +5,9 @@
     height: auto;
     border: 1px solid rgba(0,0,0,.5);
     box-shadow: 2px 2px 1px grey;
-    border-radius: 3px; 
-    
-    
+    border-radius: 3px;
+
+
   }
 
   .card-simple> h3> a {
@@ -15,18 +15,18 @@
     font-size:1rem;
   }
 .card-body {
-  
+
   padding-top: .5rem;
 }
 
 .docs-title {
-    
+
     font-size: 1.5rem;
     color: #202020;
     text-align:center;
-   
+
   }
-  
+
 .docs-title a {
     color: #202020;
     transition: color 0.6s ease;
@@ -54,14 +54,14 @@
 }
 
 #TableOfContents li a {
-  
+
   font-family: "Sarabun",  sans-serif;
-  
+
   color: #202020;
   font-size: .9em;
   font-weight: 600;
- 
-  
+
+
 
 }
 
@@ -73,7 +73,7 @@
 
 #btn-toc {
   background-color:#f5f5f5;
-  color: #202020;  
+  color: #202020;
   font-size: 1.2em;
   font-weight: 600;
   transition: 0.4s;
@@ -106,7 +106,7 @@
 }
 
 #btn-side {
-   
+
    border-radius: 5px;
    background-color: white;
    color: rgba(0, 0, 0, 0.85);
@@ -115,7 +115,7 @@
    font-weight: 400;
    padding: 18px;
    width: 100%;
-   
+
 }
 
 .btn-sidebar {
@@ -138,7 +138,7 @@ h2 {
 
 ul>li::marker {
   font-size: 120%;
-  color:  red;  
+  color:  red;
 }
 
 ul {
@@ -162,7 +162,7 @@ div.inset {
    margin-top: 20px;
 }
 
-.section-tittle h1 {  
+.section-tittle h1 {
   color: #2A4B7C;
 }
 
@@ -241,9 +241,9 @@ img {
 
 .card__body h4 {
   font-size: 1.2rem;
-  font-weight: 700; 
+  font-weight: 700;
   place-items: center;
-  text-transform: capitalize; 
+  text-transform: capitalize;
 }
 
 .card__footer {
@@ -273,7 +273,7 @@ img {
 }
 
 .btn {
- 
+
 
 font-size:1rem;
 font-weight: 600;
@@ -298,7 +298,16 @@ article>.article>.py-5 {
 
 }
 
- 
- 
- 
- 
+.container-pag {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
