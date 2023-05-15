@@ -38,7 +38,7 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
-paginate = 15  # Number of items per page in paginated lists.
+paginate = 9  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>Support@ECS^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

@@ -96,30 +96,30 @@
 
 
 
-  
+
 
 [[main]]
 
   name = "ประกาศ/กฎหมาย"
-  url = "post/announcement/customs/"
+  url = "post/law/"
   weight = 60
 
 [[main]]
   parent = "ประกาศ/กฎหมาย"
   name = "ประกาศกรมศุลกากร"
-  url = "post/announcement/customs/"
+  url = "post/law/customs/"
   weight = 61
 
 [[main]]
   parent = "ประกาศ/กฎหมาย"
   name = "ประกาศกระทรวง"
-  url = "post/announcement/ministry/"
+  url = "post/law/ministry/"
   weight = 62
 
 [[main]]
   parent = "ประกาศ/กฎหมาย"
   name = "ประกาศหน่วยงานอื่น ๆ"
-  url = "post/announcement/oga/"
+  url = "post/law/oga/"
   weight = 63
 
 
@@ -141,7 +141,7 @@
   name = "เอกสารเผยแพร่"
   url = "pages/docs/section/"
   weight = 72
- 
+
 [[main]]
   parent = "คลังความรู้"
   name = "บทความน่ารู้"
@@ -167,4 +167,3 @@
 
 
 
-  
