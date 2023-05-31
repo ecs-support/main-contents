@@ -38,7 +38,8 @@ let summaryLength = 60;
 
 // Get query from URI.
 function getSearchQuery(name) {
-  return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
+ // return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
+ return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
 }
 
 // Set query in URI without reloading the page.

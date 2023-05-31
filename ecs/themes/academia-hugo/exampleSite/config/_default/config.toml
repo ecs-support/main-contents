@@ -26,8 +26,8 @@ disqusShortname = ""
 ############################
 
 # Name of Academia theme folder in `themes/`.
-theme = "academia"
-themesDir = "../.."
+theme = "academia-hugo"
+themesDir = "../../"
 # Get last modified date for content from Git?
 enableGitInfo = false
 
