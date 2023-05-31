@@ -63,6 +63,6 @@ image:
 
 
 
-{{< button href="./annex_49-2566.pdf" >}}ดาวน์โหลดภาคผนวก{{< /button >}}
+{{< button href="./annex_49-2566.zip" >}}ดาวน์โหลดภาคผนวก{{< /button >}}
 
 > ที่มา : [กรมศุลกากร](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232932414a505f48464a4f464b49)

@@ -283,9 +283,12 @@ cursor: pointer;
 
 }
 
-img>.logo-brand {
+.logo-brand {
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: .5rem;
+  height: 50px;
+
 
 }
 article>.article>.py-5 {
@@ -316,8 +319,8 @@ article>.article>.py-5 {
   margin-top: 2rem;
   margin-left:1rem;
   margin-bottom: 2rem;
- 
- 
+
+
 
 }
 
