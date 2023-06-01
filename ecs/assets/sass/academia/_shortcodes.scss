@@ -11,18 +11,27 @@ margin-bottom: 1rem;
 }
 
 .private_heading h2 {
-    
+
     color: #2A4B7C;
     font-weight: 600;
     background-color: #c5c5c5;
     text-decoration:underline;
     text-decoration-color: red;
-    
-   
+
+
 
 }
 
 .div-btn {
     padding: 2rem auto;
-    
+
+}
+
+span.em-green {
+  background-color:rgb(79, 249, 79);
+
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 20px auto;
+
 }

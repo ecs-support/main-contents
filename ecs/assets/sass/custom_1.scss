@@ -10,7 +10,7 @@ $font-size-12: 0.75rem !default;
 $font-size-14: 0.875rem !default;
 $font-size-16: 1rem !default;
 $border-radius: 0.15rem !default;
-// Grayscale 
+// Grayscale
 $white: #ffffff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -240,7 +240,7 @@ a.book-btn {
     width: 100%;
     border: 1px solid;
     overflow: hidden;
-    
+
     & span {
         z-index: 20;
     }
@@ -443,7 +443,7 @@ dl {
 /* Style the buttons that are used to open and close the accordion panel */
 
 
-/* 
+/*
 $midnight: #2c3e50;
 $clouds: #ecf0f1;
 */
@@ -515,7 +515,7 @@ a.btn-downloads-dangers {
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 
 -------------------------------- */
@@ -523,7 +523,7 @@ a.btn-downloads-dangers {
 
 
 #myBtn {
-     
+
      display: none;
      position: fixed;
      bottom: 25px;
@@ -533,20 +533,20 @@ a.btn-downloads-dangers {
      font-weight: 800;
      border: none;
      outline: none;
-     background-color: #c5c5c5;    
+     background-color: #c5c5c5;
      color: orangered;
      cursor: pointer;
-     
+
      border-radius: 4px;
-     
-   
+
+
 }
 
 
 #myBtn:hover {
     background-color: #aaa;
     color: orangered;
-    
+
 }
 
 .docs-heading h1 {
@@ -587,25 +587,25 @@ a.btn-downloads-dangers {
     font-size: 1.75rem;
     color: #202020;
   }
-  
+
   .docs-title a {
     color: #202020;
-    
+
     font-weight: 600;
   }
 
 h3.docs-title>a {
     font-size:1em;
-    
+
     font-weight: 600;
     color: #202020;
- 
+
  }
- 
+
  h3.docs-title a:hover {
      color:$sta-primary;
      text-decoration: none;
-     
+
      transition: color 0.4s ease;
  }
 
