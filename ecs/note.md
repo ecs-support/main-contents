@@ -37,13 +37,13 @@ Link to a page
 
 ## alert
 
-{{% alert note %}}
+{{< alert note >}}
 A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
+{{< /alert >}}
 
-{{% alert warning %}}
+{{< alert danger >}}
 Here's some important information...
-{{% /alert %}}
+{{< /alert >}}
 
 ## Add Row Space
 
