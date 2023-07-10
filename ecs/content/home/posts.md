@@ -7,8 +7,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "ข่าวสารและบทความล่าสุด"
-subtitle = ""
+title = "ข่าวสารและบทความ"
+subtitle = "ติดตามข่าวสารและบทความ สำหรับการนำเข้า-ส่งออก รู้ทันทุกความเคลื่อนไหว"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -49,8 +49,8 @@ subtitle = ""
   
   # Background color.
   
-   color = "#223A5E"
-  # color = '#f9f9f9'
+  # color = "#223A5E"
+  color = '#f5f5f5'
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"

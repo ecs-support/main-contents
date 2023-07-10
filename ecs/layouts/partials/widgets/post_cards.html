@@ -1,0 +1,125 @@
+{{/* post-cards Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+{{ $items_type := $st.Params.content.page_type | default "post" }}
+{{ $items_offset := $st.Params.content.offset | default 0 }}
+{{ $items_count := $st.Params.content.count }}
+{{ if eq $items_count 0 }}
+{{ $items_count = 65535 }}
+{{ else }}
+{{ $items_count = $items_count | default 5 }}
+{{ end }}
+{{ $items_sort := $st.Params.content.order | default "desc" }}
+
+{{/* Query */}}
+{{ $query := where site.RegularPages "Type" $items_type }}
+{{ $archive_page := site.GetPage "Section" $items_type }}
+
+{{/* Filters */}}
+{{ if $st.Params.content.filters.tag }}
+{{ $archive_page = site.GetPage (printf "tags/%s" $st.Params.content.filters.tag) }}
+{{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.category }}
+{{ $archive_page = site.GetPage (printf "categories/%s" $st.Params.content.filters.category) }}
+{{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.publication_type }}
+{{ $archive_page = site.GetPage (printf "publication_types/%s" $st.Params.content.filters.publication_type) }}
+{{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.exclude_featured }}
+{{ $query = where $query "Params.featured" "!=" true }}
+{{ end }}
+{{ if $st.Params.content.filters.exclude_past }}
+{{ $query = where $query "Date" ">=" now }}
+{{ end }}
+{{ if $st.Params.content.filters.exclude_future }}
+{{ $query = where $query "Date" "<" now }}
+{{ end }}
+
+{{ $count := len $query }}
+
+{{/* Sort */}}
+{{ $sort_by := "Date" }}
+{{ $query = sort $query $sort_by $items_sort }}
+
+{{/* Offset and Limit */}}
+{{ if gt $items_offset 0 }}
+{{ $query = first $items_count (after $items_offset $query) }}
+{{ else }}
+{{ $query = first $items_count $query }}
+{{ end }}
+
+{{/* Localisation */}}
+{{ $i18n := "" }}
+{{ if eq $items_type "post" }}
+{{ $i18n = "more_posts" }}
+{{ else if eq $items_type "talk" }}
+{{ $i18n = "more_talks" }}
+{{ else if eq $items_type "publication" }}
+{{ $i18n = "more_publications" }}
+{{ else }}
+{{ $i18n = "more_pages" }}
+{{ end }}
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>{{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}</h1>
+    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+    {{ with $st.Content }}<p>{{ . }}</p>{{ end }}
+  </div>
+
+{{ $item := . }}
+
+{{ $microdata_type := "CreativeWork" }}
+{{ $show_buttons := false }}
+
+{{/* Dynamic view adjusts to content type. */}}
+{{ if eq $item.Type "post" }}
+{{ $microdata_type = "BlogPosting" }}
+{{ else if eq $item.Type "talk" }}
+{{ $microdata_type = "Event" }}
+{{ $show_buttons = true }}
+{{ else if eq $item.Type "publication" }}
+{{ $microdata_type = "ScholarlyArticle" }}
+{{ $show_buttons = true }}
+{{ end }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+{{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if .Params.abstract }}
+{{ $summary = .Params.abstract | markdownify | emojify }}
+{{ else if $item.Truncated }}
+{{ $summary = $item.Summary }}
+{{ else }}
+{{ $summary = $item.Content }}
+{{ end }}
+<div class="wrapper">
+    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+    {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
+    {{ with $resource }}
+    {{ $image := .Fill (printf "918x517 q90 %s" $anchor) }}
+    <div class="card">
+      <div class="card-banner">
+        {{ range .Params.categories }}
+        <p class="category-tag popular"> {{ . }}</p>
+    <a href="{{ $item.RelPermalink }}">
+      <img src="{{ $image.RelPermalink }}" class="banner-img" itemprop="image" alt="">
+      </a>
+    {{end}}
+    <div class="card-body">
+        <a class="title is-4" href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="content">
+            {{ .Summary }}
+        </div>
+
+    </div>
+    {{end}}
+</div>
+
+</div>

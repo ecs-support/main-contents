@@ -16,13 +16,15 @@
 
 .home-section {
   /* background-color: rgb(248, 248, 242); */
-  
+
   padding: -50px 0 50px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
-  
-  
+
+
 }
+
+
 
 #heading  {
   color:white;
@@ -51,6 +53,7 @@
 /* Big underline style for links in dark sections */
 /* Disabled as it's an experimental style that requires CSS NOT Selector Level 4 (only in Safari) */
 
+
 .home-section.dark.big-underline a:not(.btn):not(.hero-cta-alt):not(.alert a) {
   text-decoration: none;
   position: relative;
@@ -67,7 +70,7 @@
 
 /* Create the parallax scrolling effect */
 .parallax {
- 
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,15 +105,21 @@
 .section-heading{
   margin-bottom: 30px;
    margin-top: 30px;
-  
-  
+
+
 }
 
 
 
 .section-heading h1 {
+ 
+  color : $sta-heading;
+  text-align: left;
   margin: 0 0 10px 0;
-  color : #fff;
+  color: $sta-heading;
+  font-size: 2.5rem;
+  width: 90%;
+  padding-top: 3rem;
 }
 
 .section-heading p {
@@ -150,15 +159,15 @@
   animation-delay: 0s;
   animation-delay: 0.25s;
   position: relative;
- 
+
   min-height: 750px;
   width: auto;
   z-index: -1;
 /* add  */
-   
- 
-   
-   
+
+
+
+
 }
 
 .hero-title {
@@ -169,10 +178,10 @@
 }
 
 .hero-lead {
-  
+
   font-size: 1.35rem;
   color: #fff;
-  
+
 }
 
 .wg-hero.dark .hero-title,
@@ -228,17 +237,17 @@ a.hero-cta-alt:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   text-align: center;
-   
+
 }
 
 #show_txt {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);  
-  
+  transform: translate(-50%, -50%);
+
    color: #fff;
    font-size: 3.7em;
    font-weight: 400;
@@ -256,7 +265,7 @@ a.hero-cta-alt:hover {
 
 .line-1 {
   position: relative;
- 
+
   margin: 0 auto;
   border-right: 2px solid rgba(255, 255, 255, .75);
   font-size: 180%;
@@ -264,7 +273,7 @@ a.hero-cta-alt:hover {
   white-space: nowrap;
   overflow: hidden;
  /* transform: translateY(-50%);   */
-  
+
 }
 
 /* Animation */
@@ -315,12 +324,12 @@ a.hero-cta-alt:hover {
 
 .home-section.wg-featurette {
   padding: 0;
- 
+
    background-color: rgba(34, 58, 94,0.9);
     /* Full height */
     height: 100%;
 
-   
+
 
 }
 
@@ -350,12 +359,12 @@ a.hero-cta-alt:hover {
   margin-top: 10;
   margin-bottom: 5px;
   font-weight: 400;
-  color: $sta-primary;  
+  color: $sta-primary;
   font-size: 1.2rem;
 }
 
 .featurette-icon h3:hover {
- 
+
   font-weight: bold;
   text-decoration: none;
   transition: color 0.4s ease;
@@ -375,19 +384,19 @@ a.hero-cta-alt:hover {
   text-align: center;
   border: 0.1rem solid #f5f5f5;
   transition: color 0.4s ease;
-  
-  
+
+
 }
 
 .featurette-icon:hover {
   display: block;
   width: 100%;
   color: $sta-primary;
-  
+
   font-size: 2.7rem;
   text-align: center;
   border: 0.1rem solid $sta-primary;
- 
+
   box-shadow: 5px 5px 3px grey;
 
 }
@@ -397,12 +406,12 @@ a.hero-cta-alt:hover {
 #1catagorys {
   cursor: pointer;
   color: #f5f5f5;
-  
+
 
 }
 
 #1catagorys:hover {
-  
+
   border: 0.16rem solid $sta-primary;
   box-shadow: 10px 10px 5px grey;
 
@@ -410,8 +419,8 @@ a.hero-cta-alt:hover {
 
 .featurette-margin {
   margin-bottom: 20px;
-  margin-right: 20px;  
-  
+  margin-right: 20px;
+
 }
 
 
@@ -722,7 +731,7 @@ ul.ul-edu li .description p.institution {
 
 
 .section-head-faq img {
-  
+
   align-items: center;
 }
 
