@@ -37,21 +37,11 @@ image:
 
 
 
-
+{{< row_space >}}
 
 {{< gdocs src="./docs.pdf" >}}
 
 
-{{< rawhtml >}}
-<br>
-
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
-
-</div>
-<br>
-
-{{< /rawhtml >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
 
 > ที่มา : [กรมศุลกากร](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232932414b505f48464b49464b49)
