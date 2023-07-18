@@ -35,3 +35,119 @@ span.em-green {
   margin: 20px auto;
 
 }
+
+
+
+
+@layer step2styles, markers;
+
+details {
+  padding: 18px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5rem;
+  padding: 0 auto;
+  text-align: left;
+  transition: 0.4s;  
+  background: white;
+  border-radius: 10px;
+  text-rendering: optimizeLegibility;
+  
+  box-shadow: 5px 5px 5px grey;
+ 
+}
+
+.summary-contents {
+  font-family: $sta-font-body, sans-serif;
+  border: 2px solid $sta-heading;
+  line-height: 1.5;
+  letter-spacing: 0.04ch;
+
+}
+
+summary>h4:hover {
+  cursor: pointer;
+  color:$sta-primary ;
+ 
+}
+
+summary>h4 {
+  font-family: $sta-font-heading, sans-serif; 
+  font-weight: 500;
+  vertical-align: middle;
+  color:$black;
+  font-size: 20px;
+  
+ 
+
+}
+
+
+details[open] {
+    padding-bottom: 1em;
+    background: white;    
+   
+}  
+
+summary::before,
+summary::after {
+    transition: 200ms;
+  }
+
+
+
+@layer markers {
+  summary {
+  position: relative;
+}
+summary::marker {
+  content: none;
+}
+summary::before,
+summary::after {
+  content: '';
+}
+summary::before,
+summary::after {
+    width: .75em;
+    height: 0;
+    border-bottom: 2px solid;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 0;
+    transform: translateY(-50%);
+  }
+summary::after {
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
+[open] summary::after {
+  transform: rotate(0deg);
+}
+}
+
+/* styles ported over from the second example */
+@layer step2styles {
+  details {
+    border: 1px solid;
+    padding: 1em;
+    background: white;
+    font-family: $sta-font-body, sans-serif;
+  }
+  details + details {
+    border-top: none;
+  }
+  details[open] {
+      padding-bottom: 1em;
+  }  
+  summary {
+    
+    font-size: 1rem;
+    padding: 0 auto;
+    
+    cursor: pointer;
+    
+  }
+ 
+}
+

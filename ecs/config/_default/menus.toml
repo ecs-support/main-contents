@@ -11,7 +11,7 @@
 
 [[main]]
   name = "พิธีการศุลกากร"
-  url = "customs/import-export/"
+  url = "pages/import-export/"
   weight = 20
 
 [[main]]
@@ -45,6 +45,11 @@
   name = "A.T.A. CARNET"
   url = "pages/ata-carnet/"
   weight = 26
+[[main]]
+  parent = "พิธีการศุลกากร"
+  name = "การปฏิบัติพิธีการศุลกากร"
+  url = "pages/clearance/"
+  weight = 27
 
 
 [[main]]

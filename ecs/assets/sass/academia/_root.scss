@@ -26,6 +26,8 @@ body {
     /* Offset body content by navbar height. */
     padding-top: 0;
     counter-reset: captions;
+    line-height: 1.7;
+  letter-spacing: 0.04ch;
 }
 
 @media screen and (max-width: 1200px) {
@@ -54,7 +56,8 @@ body {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem;
+   
+   
 }
 
 
@@ -64,7 +67,7 @@ ul,
 ol,
 dl {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: .7rem;
 }
 
 
