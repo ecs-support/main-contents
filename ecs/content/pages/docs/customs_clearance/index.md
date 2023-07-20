@@ -22,14 +22,14 @@ image:
 ## ประกาศกรมศุลกากรที่ 134/.2561 เรื่อง การปฏิบัติพิธีการศุลกากรทางอิเล็กทรอนิกส์
 
 
-{{< gdocs src="./docs.pdf" >}}
+{{< gdocs src="https://ecs-support.github.io/post/law/customs/2561/2561-134/docs.pdf" >}}
 
 {{< rawhtml >}}
 <br>
 
 <br>
 <div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a> 
+<a class="badge badge-danger" href="https://ecs-support.github.io/post/law/customs/2561/2561-134/docs.pdf" target="_blank" id="download_files_new">Download</a> 
 </div>
 <br>
 {{< /rawhtml >}}
