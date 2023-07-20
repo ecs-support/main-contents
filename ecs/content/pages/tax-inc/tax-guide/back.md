@@ -19,7 +19,7 @@ menu:
 {{< rawhtml >}}
 <script>
 
-location.replace("/KM/customs/pages/tax-inc/")
+location.replace("/pages/tax-inc/")
 </script>
 
 {{< /rawhtml >}}

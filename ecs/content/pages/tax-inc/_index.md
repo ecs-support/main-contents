@@ -22,7 +22,7 @@ weight: 1
 ---
 
 
-![](./img/tax-incentive.png)
+![](./img/incentive.png)
 
 
 
