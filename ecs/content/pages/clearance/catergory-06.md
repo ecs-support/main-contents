@@ -22,6 +22,8 @@ menu:
 weight: 6
 ---
 
+![](../img/img_06.png)
+
 {{< toc >}}
 
 {{<hint success>}}

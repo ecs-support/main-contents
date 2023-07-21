@@ -1,19 +1,15 @@
 ---
 linktitle: 1 - กระบวนการทางศุลกากร
-# Page metadata.
 title: หมวดที่  1 กระบวนการทางศุลกากรโดยวิธีทางอิเล็กทรอนิกส์ 
 date: "2021-07-28T00:00:00Z"
 lastmod: "2021-07-28T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: false # Show table of contents? true/false
-type: series  # Do not modify.
+type:  series  # Do not modify.
 categories: ["การปฏิบัติพิธีการศุลกากร"]
 tags: ["กระบวนการ"]
 authors: ["admin"]
 
-# Add menu entry to sidebar.
-# - name: Declare this menu p as a parent with ID `name`.
-# - weight: Position of link in menu.
 menu:
   clearance:
     parent : การปฏิบัติพิธีการศุลกากร
@@ -22,7 +18,12 @@ menu:
 weight: 1
 ---
 
+![](../img/img_01.png)  
+
+
 {{< toc >}}
+
+
 
 {{< summary "ข้อ 2 เพื่อประโยชน์แห่งการดำเนินกระบวนการทางศุลกากร" >}}
 
