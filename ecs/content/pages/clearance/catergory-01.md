@@ -13,9 +13,9 @@ authors: ["admin"]
 menu:
   clearance:
     parent : การปฏิบัติพิธีการศุลกากร
-    weight: 1
+    weight: 2
 
-weight: 1
+weight: 2
 ---
 
 ![](../img/img_01.png)  

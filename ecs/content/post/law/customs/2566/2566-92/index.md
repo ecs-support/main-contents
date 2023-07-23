@@ -8,7 +8,7 @@ tags: ["การเชื่อมโยงข้อมูลใบอนุญ
 categories: ["ประกาศกรมศุลกากร"]
 date: "2023-06-14"
 publishDate: "2023-06-14"
-date: "2023-06-14"
+lastMod: "2023-06-14"
 featured: false
 draft: false
 
