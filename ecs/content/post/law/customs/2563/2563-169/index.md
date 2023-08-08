@@ -21,18 +21,18 @@ image:
 
 ---
 
-![](featured.jpg)
+![](featured.png)
 
-ประกาศกรมศุลกากรที่ 169/.2563 เรื่อง **การดำเนินกระบวนการทางศุลกากรสำหรับระบบศุลกากรผ่านแดนอาเซียน (ASEAN Customs Transit System - ACTS)**
-
-
+ประกาศกรมศุลกากรที่ 169/2563 เรื่อง **การดำเนินกระบวนการทางศุลกากรสำหรับระบบศุลกากรผ่านแดนอาเซียน (ASEAN Customs Transit System - ACTS)**
 
 
-{{< gdocs src="./2563-169.pdf" >}}
+
+
+{{< gdocs src="./docs.pdf" >}}
 
 {{< row_space >}}
 
-## เอกสารแนบท้ายประกาศกรมศุลกากรที่ 169/.2563
+## เอกสารแนบท้ายประกาศกรมศุลกากรที่ 169/2563
 
 {{< row_space >}}
 {{< gdocs src="./attachment_2563-169.pdf" >}}
@@ -44,7 +44,7 @@ image:
 {{< row_space >}}
 {{< gdocs src="./manual_ACTS.pdf" >}}
 
-{{< button href="./2563-169.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
 {{< button href="./manual_ACTS.pdf" >}}ดาวน์โหลดคู่มือการใช้งาน{{< /button >}}
 
 
