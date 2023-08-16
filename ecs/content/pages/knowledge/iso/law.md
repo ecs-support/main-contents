@@ -25,6 +25,6 @@ weight: 20
 
 {{< rawhtml >}}
 <script> 
- location.replace("/KM/customs/pages/knowledge/iso/section/")  
+ location.replace("/pages/knowledge/iso/section/")  
 </script>
 {{< /rawhtml >}}

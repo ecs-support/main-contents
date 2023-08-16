@@ -86,8 +86,8 @@ categories: ["สิทธิประโยชน์ทางภาษี"]
 
 ## เอกสารที่เกี่ยวข้อง
 
-- คู่มือการดำเนินธุรกรรมทางอิเล็กทรอนิกส์สำหรับการชดเชยค่าภาษีอากรด้วยบัตรภาษีอิเล็กทรอนิกส์ (Digital Tax Compensation) [[**ดาวน์โหลด**]](https://ecs-support.github.io/KM/customs/post/announcement/customs/2564-16/)
-- เอกสารประกอบการสัมมนา [[**ดาวน์โหลด**]](/KM/customs/pages/knowledge/digital-tax/seminar/)
+- คู่มือการดำเนินธุรกรรมทางอิเล็กทรอนิกส์สำหรับการชดเชยค่าภาษีอากรด้วยบัตรภาษีอิเล็กทรอนิกส์ (Digital Tax Compensation) [[**ดาวน์โหลด**]](/post/announcement/customs/2564-16/)
+- เอกสารประกอบการสัมมนา [[**ดาวน์โหลด**]](/pages/knowledge/digital-tax/seminar/)
 
 
 

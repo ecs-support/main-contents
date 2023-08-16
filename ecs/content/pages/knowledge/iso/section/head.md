@@ -4,10 +4,7 @@ widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
-
 title = "กฎหมายที่เกี่ยวข้อง"
-
-
 +++
 
 ## กฎหมายการกระทำความผิดเกี่ยวกับคอมพิวเตอร์
@@ -50,3 +47,4 @@ title = "กฎหมายที่เกี่ยวข้อง"
 - พระราชบัญญัติลิขสิทธิ์ (ฉบับที่ 2) พ.ศ. 2558 [(ดาวน์โหลด)](../law/copyright-2-act-2558/)
 - พระราชบัญญัติลิขสิทธิ์ (ฉบับที่ 3) พ.ศ. 2558 [(ดาวน์โหลด)](../law/copyright-3-act-2558/)
 - พระราชบัญญัติลิขสิทธิ์ (ฉบับที่ 4) พ.ศ. 2561 [(ดาวน์โหลด)](../law/copyright-4-act-2561/)
+- พระราชบัญญัติลิขสิทธิ์ (ฉบับที่ 5) พ.ศ. 2565 [(ดาวน์โหลด)](../law/copyright-5-act-2565/)
