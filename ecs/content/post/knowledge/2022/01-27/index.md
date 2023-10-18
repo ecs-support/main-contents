@@ -34,19 +34,13 @@ image:
 
 {{< row_space >}}
 
-{{< gdocs src="./docs.pdf" >}}
+{{< gdocs_width src="./docs.pdf" >}}
+
+{{< row_space >}}
 
 
-{{< rawhtml >}}
-<br>
 
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
 
-</div>
-<br>
-
-{{< /rawhtml >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดเอกสาร{{< /button >}}
 
 > ที่มา : กรมศุลกากร

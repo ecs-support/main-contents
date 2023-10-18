@@ -19,20 +19,17 @@ image:
   preview_only: true
 ---
 
+![](featured.png)
+
+{{< row_space >}}
+
+{{< gdocs_width src="./docs.pdf" >}}
+
+{{< row_space >}}
 
 
-{{< gdocs src="./docs.pdf" >}}
 
-{{< rawhtml >}}
-<br>
 
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
-
-</div>
-<br>
-
-{{< /rawhtml >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดเอกสาร{{< /button >}}
 
 > ที่มา : [กรมศุลกากร](https://www.customs.go.th/cont_strc_simple_with_date.php?current_id=142329324146505f49464a4f464b4d)

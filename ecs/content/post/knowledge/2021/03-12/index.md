@@ -32,24 +32,16 @@ image:
 หลักฐานการรับรองถิ่นกำเนิดสินค้าได้ถึง 3 รูปแบบอันได้แก่ หนังสือรับรองถิ่นกำเนิดสินค้า (Form D) หนังสือรับรองถิ่นกำเนิดสินค้าแบบอิเล็กทรอนิกส์ (e-Form D) และคำรับรองถิ่นกำเนิดสินค้า (Origin Declaration) ทั้งนี้ คำรับรองถิ่นกำเนิดสินค้าภายใต้การรับรองถิ่นกำเนิดสินค้าด้วยตนเองของอาเซียน (ASEAN-wide Self-certifiation: AWSC) เป็นหลักฐานการรับรองถิ่นกำเนิดสินค้ารูปแบบล่าสุด ที่ผู้ประกอบการควรทราบ เนื่องจากมีลักษณะและรูปแบบแตกต่างจาก Form D และ e-Form D และเริ่มใช้ตั้งแต่ วันที่ 20 กันยายน 2563 เป็นต้นมา
  
 
-<br>
+{{< row_space >}}
 
-![](./img/imgjpg_Page1.jpg)
+{{< gdocs_width src="./docs.pdf" >}}
 
-![](./img/imgjpg_Page2.jpg)
-
-![](./img/imgjpg_Page3.jpg)
-
-![](./img/imgjpg_Page4.jpg)
+{{< row_space >}}
 
 
 
 
-<br>
-
-<div class="article-tags">
-<a class="badge badge-danger" href="doc.pdf" target="_blank" id="download_files_new">Download</a>
-</div>
+{{< button href="./docs.pdf" >}}ดาวน์โหลดเอกสาร{{< /button >}}
 
 
 

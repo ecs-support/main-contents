@@ -41,24 +41,17 @@ EEC ประกาศเขตส่งเสริมเพื่อรอง�
 รูปแบบอุตสาหกรรมเป้าหมายพิเศษเฉพาะด้าน (Cluster) จำนวน 2 แห่ง
  
 
-<br>
 
+{{< row_space >}}
 
+{{< gdocs_width src="./docs.pdf" >}}
 
-![](./img/docjpg_Page2.jpg)
-
-![](./img/docjpg_Page3.jpg)
-
-![](./img/docjpg_Page4.jpg)
+{{< row_space >}}
 
 
 
 
-<br>
-
-<div class="article-tags">
-<a class="badge badge-danger" href="doc.pdf" target="_blank" id="download_files_new">Download</a>
-</div>
+{{< button href="./docs.pdf" >}}ดาวน์โหลดเอกสาร{{< /button >}}
 
 
 

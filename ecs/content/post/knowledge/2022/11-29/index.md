@@ -29,76 +29,56 @@ image:
 
 > โดย นายคลี่เอก มาสมาน  นักวิชาการศุลกากรชํานาญการ สํานักงานศุลกากรตรวจสินค้าท่าอากาศยานสุวรรณภูมิ 
 
-{{< gdocs src="./docs_01.pdf" >}}
+{{< row_space >}}
+
+{{< gdocs_width src="./docs_01.pdf" >}}
+
+{{< row_space >}}
 
 
-{{< rawhtml >}}
-<br>
+{{< button href="./docs_01.pdf" >}}ดาวน์โหลดเอกสาร{{< /button >}}
 
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs_01.pdf" target="_blank" id="download_files_new">Download</a>
 
-</div>
-<br>
-{{< /rawhtml >}}
 
 ## การบรรยายในหัวข้อ "การจัดตั้งเขตปลอดอากรพาณิชย์อิเล็กทรอนิกส์"
 
 > โดย นายธีร์ จิตรพิทักษ์เลิศ ส่วนตรวจสอบคลังสินค้าทัณฑ์บน กองสิทธิประโยชน์ทางภาษีอากร
 
-{{< gdocs src="./docs_02.pdf" >}}
+{{< row_space >}}
+
+{{< gdocs_width src="./docs_02.pdf" >}}
+
+{{< row_space >}}
 
 
-{{< rawhtml >}}
-<br>
-
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs_02.pdf" target="_blank" id="download_files_new">Download</a>
-
-</div>
-<br>
-{{< /rawhtml >}}
+{{< button href="./docs_02.pdf" >}}ดาวน์โหลดเอกสาร{{< /button >}}
 
 
 ## การบรรยายในหัวข้อ "การลงทะเบียนเป็นผู้รับส่งข้อมูลอิเล็กทรอนิกส์ผ่านระบบ NSW"
 
 > โดย นายไกรษร สมนึก  นักวิชาการคอมพิวเตอร์ชํานาญการ ศูนย์เทคโนโลยีสารสนเทศและการสื่อสาร
 
-{{< gdocs src="./docs_03.pdf" >}}
+{{< row_space >}}
+
+{{< gdocs_width src="./docs_03.pdf" >}}
+
+{{< row_space >}}
 
 
-{{< rawhtml >}}
-<br>
-
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs_03.pdf" target="_blank" id="download_files_new">Download</a>
-
-</div>
-<br>
-{{< /rawhtml >}}
+{{< button href="./docs_03.pdf" >}}ดาวน์โหลดเอกสาร{{< /button >}}
 
 ## การบรรยายในหัวข้อ "ระบบพิธีการศุลกากรพาณิชย์อิเล็กทรอนิกส์"
 
 > โดย นางกรรณิกา ปกรณ์ประเสริฐ  ผู้อํานวยการส่วนพัฒนาระบบส่งออกและสิทธิประโยชน์ ศูนย์เทคโนโลยีสารสนเทศและการสื่อสาร
 
-{{< gdocs src="./docs_04.pdf" >}}
+{{< row_space >}}
+
+{{< gdocs_width src="./docs_04.pdf" >}}
+
+{{< row_space >}}
 
 
-{{< rawhtml >}}
-<br>
-
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs_04.pdf" target="_blank" id="download_files_new">Download</a>
-
-</div>
-<br>
-
-
-{{< /rawhtml >}}
+{{< button href="./docs_04.pdf" >}}ดาวน์โหลดเอกสาร{{< /button >}}
 
 
 

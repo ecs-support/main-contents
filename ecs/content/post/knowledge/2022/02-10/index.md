@@ -19,30 +19,17 @@ image:
     preview_only: true
 ---
 
-![](img/img-01.jpg)   
+![](featured.jpg)   
 
-![](img/img-02.jpg)     
+{{< row_space >}}
 
-![](img/img-03.jpg)       
-
-
-
+{{< gdocs_width src="./docs.pdf" >}}
 
 {{< row_space >}}
 
 
 
 
-{{< rawhtml >}}
-<br>
-
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
-
-</div>
-<br>
-
-{{< /rawhtml >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดเอกสาร{{< /button >}}
 
 > ที่มา : [กรมศุลกากร](https://www.customs.go.th/data_files/444f1d09ff5d54d9e4f086c00fc524ff.pdf)
