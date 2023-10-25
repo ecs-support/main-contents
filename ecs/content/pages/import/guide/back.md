@@ -14,6 +14,6 @@ weight: 200
 ---
 {{< rawhtml >}}
 <script> 
- location.replace("/KM/customs/pages/import/")  
+ location.replace("/pages/import/")  
 </script>
 {{< /rawhtml >}}
