@@ -11,10 +11,6 @@ lastMod: "2020-10-15"
 featured: true
 draft: false
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
-# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
   placement: 
   caption: ''
@@ -25,19 +21,15 @@ image:
 
 ![](featured.png)
 
-## ประกาศกรมศุลกากรที่ 163/.2563 เรื่อง พิธีการศุลกากรสำหรับการยกเว้นอากรของตามประเภท 1 ภาค 4  (สุทธินำกลับ)
+
+ประกาศกรมศุลกากรที่ 163/2563 เรื่อง พิธีการศุลกากรสำหรับการยกเว้นอากรของตาม*ประเภท 1 ภาค 4*  (สุทธินำกลับ)
 
 
-<br>
-{{< gdocs src="./2563-163.pdf" >}}
 
-<br>
+{{< gdocs src="./docs.pdf" >}}
 
-<div class="article-tags">
-<a class="badge badge-danger" href="./2563-163.pdf" target="_blank" id="download_files_new"> Download </a> 
-</div>
 
-<br>
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
 
 
 > ที่มา : [กรมศุลกากร](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414c505f47464a4f464b47)

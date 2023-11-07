@@ -27,14 +27,9 @@ image:
 
 ![](img-01.jpg)
 
+{{< gdocs src="./docs.pdf" >}}
 
 
-<br>
-{{< gdocs src="./2563-152.pdf" >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
 
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./2563-152.pdf" target="_blank" id="download_files_new"> Download </a> 
-</div>
-
-> ที่มา : [กรมศุลกากร](./2563-152.pdf)
+> ที่มา : [กรมศุลกากร]()

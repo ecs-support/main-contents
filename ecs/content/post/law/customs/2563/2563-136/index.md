@@ -20,7 +20,7 @@ image:
 
 ---
 
-![](featured.jpg)
+![](featured.png)
 
 
 
@@ -32,12 +32,10 @@ image:
 
 ### ประกาศฉบับเต็ม
 
-{{< gdocs src="./2563-136.pdf" >}}
-
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./2563-136.pdf" target="_blank" id="download_files_new"> Download </a> 
-</div>
+{{< gdocs src="./docs.pdf" >}}
 
 
-> ที่มา : [กรมศุลกากร](./2563-136.pdf)
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
+
+
+> ที่มา : [กรมศุลกากร]()
