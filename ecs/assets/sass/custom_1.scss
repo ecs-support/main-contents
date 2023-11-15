@@ -496,7 +496,7 @@ $clouds: #ecf0f1;
 }
 
 a.btn-downloads-dangers {
-    border: 2px solid$color-hover;
+    border: 3px solid$color-hover;
     font-family: 'Kanit',  sans-serif;
     margin-top: $padding-32;
     margin-bottom: $padding-16;
@@ -508,14 +508,15 @@ a.btn-downloads-dangers {
     border-radius: 10px;
     font-weight: 600;
     margin-left:20px ;
+    box-shadow: 4px 4px 2px grey;
     
     &:hover {
         background: $sta-primary;
         font-weight: bold;
         color: white;
         text-decoration: none;
-        transition: color 0.4s ease;
-        box-shadow: 5px 5px 2px grey;
+        transition: color 0.5s ease;
+        box-shadow: 6px 6px 3px grey;
     }
 }
 
