@@ -1,6 +1,6 @@
 {{ $ref := "" }} {{ $target := "" }} {{ with .Get "href" }} {{ $ref = . }} {{ $target = "_blank" }} {{ end }} {{ with .Get "relref" }} {{ $ref = relref $ . }} {{ end }}
-<div class="div-btn">
-    <a {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" {{ end }} id="download_files_new" class="btn btn-danger {{ with .Get " class " }} {{ . }}{{ end }}">
+<div class="downloads-btn">
+    <a {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" {{ end }} id="downloads_files" class="btn-downloads-dangers {{ with .Get " class " }} {{ . }}{{ end }}">
   {{ $.Inner }}
 </a>
 </div>

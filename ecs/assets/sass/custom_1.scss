@@ -5,6 +5,7 @@ $padding-2: 0.125rem !default;
 $padding-4: 0.25rem !default;
 $padding-8: 0.5rem !default;
 $padding-16: 1rem !default;
+$padding-32: 2rem !default;
 $font-size-base: 1rem !default;
 $font-size-12: 0.75rem !default;
 $font-size-14: 0.875rem !default;
@@ -495,15 +496,19 @@ $clouds: #ecf0f1;
 }
 
 a.btn-downloads-dangers {
-    border: 2px solid$sta-primary;
-    background-color: white;
-    color: $sta-primary;
+    border: 2px solid$color-hover;
+    font-family: 'Kanit',  sans-serif;
+    margin-top: $padding-32;
+    margin-bottom: $padding-16;
+    background-color:white;
+    color:  $color-hover;
     padding: 14px 28px;
-    font-size: 18px;
+    font-size: 1.3rem;
     cursor: pointer;
     border-radius: 10px;
-    font-weight: 500;
+    font-weight: 600;
     margin-left:20px ;
+    
     &:hover {
         background: $sta-primary;
         font-weight: bold;
@@ -513,6 +518,8 @@ a.btn-downloads-dangers {
         box-shadow: 5px 5px 2px grey;
     }
 }
+
+
 
 .page-item .item-prev,
 .page-item .item-prev a {
