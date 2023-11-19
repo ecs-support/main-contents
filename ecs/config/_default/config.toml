@@ -74,7 +74,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [markup]
   [markup.tableOfContents]
     startLevel = 2
-    endLevel = 4
+    endLevel = 3
 
 
 # Related
@@ -86,7 +86,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 [[related.indices]]
     name = "tags"
-    weight = 70
+    weight = 60
 [[related.indices]]
     name = "categories"
     weight = 30

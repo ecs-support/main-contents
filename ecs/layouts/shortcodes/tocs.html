@@ -2,5 +2,22 @@
     <header>
         <h2>{{"Table of Contents"}}</h2>
     </header>
- {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" |  safeHTML }}
+    {{ $.Page.TableOfContents }}
+
+ 
 </aside>
+
+
+
+<div class="toc collapsible-toc">
+    <button id="btn-toc" type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Table of Contents</button>
+    <div id="demo" class="collapse">
+     {{ $.Page.TableOfContents }}
+    
+    <!--  {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }} 
+    {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" |  safeHTML }}
+    -->
+      </div>
+     </div>
+     <br>
+       </div>

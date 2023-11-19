@@ -46,11 +46,12 @@ span.em-green {
 @layer step2styles, markers;
 
 details {
+  border: 2px solid $sta-heading;
   padding: 18px;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   border-radius: 0.5rem;
-  padding: 0 auto;
+  padding: 2rem auto; 
   text-align: left;
   transition: 0.4s;  
   background: white;

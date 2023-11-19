@@ -567,6 +567,7 @@
       offset: navbar_offset,
     });
 
+
     // Call `fixScrollspy` when window is resized.
     let resizeTimer;
     $(window).resize(function () {

@@ -220,9 +220,9 @@ font-weight: bold;
   display: block;
   padding-left: .5rem;
  
-  font-size: 1em;
+  font-size: 1rem;
   color:#2A4B7C;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .docs-toc-link:hover {
@@ -281,7 +281,7 @@ font-weight: bold;
  display: block;
  box-shadow: 0 1px 4px rgba(0, 0, 0, .04);
  
- border-radius: 8px;
+ border-radius: 20px;
  
  
 }
@@ -379,7 +379,7 @@ ul.toc-top {
 }
 .toc-contents #TableOfContents li a {
  color: #202020;
-  font-size: 1em;
+  font-size: 1rem;
   
   text-decoration: none;
   font-weight: 500;

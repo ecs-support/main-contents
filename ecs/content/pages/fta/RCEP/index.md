@@ -13,9 +13,9 @@ authors: ["admin"]
 menu:
   fta:
     parent: สิทธิพิเศษทางการค้า
-    weight: 24
+    weight: 30
         
-weight: 24
+weight: 30
 ---
 
 

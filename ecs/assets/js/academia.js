@@ -492,10 +492,9 @@
   $(document).ready(function () {
     // Fix Hugo's auto-generated Table of Contents.
     //   Must be performed prior to initializing ScrollSpy.
-    $("#TableOfContents > ul > li > ul").unwrap().unwrap();
-    $("#TableOfContents").addClass("nav flex-column");
-    $("#TableOfContents li").addClass("nav-item");
-    $("#TableOfContents li a").addClass("nav-link");
+
+
+
 
     // Set dark mode if user chose it.
     let default_mode = 0;
@@ -560,6 +559,9 @@
         scrollToAnchor();
       }
     }
+
+    
+    
 
     // Initialize Scrollspy.
     let $body = $("body");
@@ -696,6 +698,9 @@
         toggleSearchDialog();
       }
     });
+
+  
+
   });
 
   // Normalize Bootstrap carousel slide heights.
