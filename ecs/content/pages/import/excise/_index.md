@@ -19,7 +19,7 @@ menu:
 ---
 {{< rawhtml >}}
 <script> 
-  location.replace("/KM/customs/pages/import/excise/intro")  
+  location.replace("/pages/import/excise/intro")  
 </script>
 {{< /rawhtml >}}
 
