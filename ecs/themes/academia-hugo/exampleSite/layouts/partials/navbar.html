@@ -16,7 +16,7 @@
       {{ end }}
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar">
+    <div class="collapse navbar-collapse fixed-top" id="navbar">
       <!-- Left Nav Bar -->
       {{ $align_right := site.Params.menu_align_right | default true }}
       <ul class="navbar-nav {{ if $align_right }}ml-auto{{ else }}mr-auto{{ end }}">

@@ -1,8 +1,8 @@
 +++
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+headless = false # This file represents a page section.
+active = false  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = "ECS Knowledge Center"
@@ -17,7 +17,7 @@ title = "ECS Knowledge Center"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-color = "#223A5E"
+#color = "#223A5E"
   
   # Background gradient.
  # gradient_start = "#4bb4e3"
@@ -28,7 +28,7 @@ color = "#223A5E"
   # image = "black-sail-ship.jpg"  # Name of image in `static/img/`.
 
    
-  image_darken = 0.4  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image_darken = 0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
    image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
    image_position = "center"  # Options include `left`, `center` (default), or `right`.
    image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
