@@ -1,10 +1,12 @@
-{{ if not .IsHome }}
-<nav class="d-none d-md-flex" aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        {{ partial "breadcrumb_helper" . }}
-        <li class="breadcrumb-item active" aria-current="page">
-            {{ .LinkTitle | emojify }}
-        </li>
-    </ol>
+<nav aria-label="breadcrumb" class="breadcrumb">
+  <ol>
+    {{ range .Ancestors.Reverse }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      </li>
+    {{ end }}
+    <li class="active">
+      <a aria-current="page" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </li>
+  </ol>
 </nav>
-{{ end }}
