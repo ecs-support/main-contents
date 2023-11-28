@@ -1,0 +1,30 @@
+{{- define "main" -}}
+
+
+<div class="universal-wrapper split-section">
+  {{ partial "head_cdn.html" . }}
+  {{ partial "page_header.html" . }}
+   <div class="col-12">
+     <div class="row justify-content-center">
+
+      {{ with .Content }}
+      <div class="article-style" itemprop="articleBody">{{ . }}</div>
+      {{ end }}
+
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $paginator.Pages }}
+     
+      <div class="col-lg-4 col-md-6 mb-4 justify-content-center">
+        {{ partial "li_card" . }}
+      </div>
+      
+      {{ end }}
+
+      <div class="col-lg-12 col-md-12 mb-12 justify-content-right">
+      {{ partial "pagination-02" . }}
+    </div>
+
+    </div>
+
+    {{- end -}}
+
