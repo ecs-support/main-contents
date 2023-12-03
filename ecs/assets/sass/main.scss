@@ -5,6 +5,9 @@
 $sta-darken-percentage: 10%;
 $sta-lighten-percentage: 10%;
 
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+
 $sta-font-size: {{ $scr.Get "font_size" }};
 $sta-font-size-small: {{ $scr.Get "font_size_small" }};
 
@@ -19,9 +22,11 @@ $sta-primary-dark: darken($sta-primary, $sta-darken-percentage);
 $sta-heading: #2A4B7C;
 
 $breadcrumb-item-padding:2px;
-$breadcrumb-active-color: $sta-primary;
-$breadcrumb-divider-color: $sta-primary;
-$breadcrumb-bg: #fff;
+$breadcrumb-item: $gray-600;
+
+$breadcrumb-active-color: $gray-600;
+$breadcrumb-divider-color: $gray-600;
+$breadcrumb-bg: $sta-primary;
 
 $sta-link: {{ $scr.Get "link" }};
 $sta-link-hover: #da532c;

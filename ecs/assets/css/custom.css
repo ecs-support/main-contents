@@ -201,9 +201,10 @@ img {
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
-  border-radius: 1em;
+  border-radius: 12px;
   background: #ECE9E6;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  padding: 8px;
 }
 
 .card__body {
@@ -213,10 +214,12 @@ img {
   gap: .5rem;
 }
 
+
+
 .tag {
   align-self: flex-start;
   padding: .25em .5em;
-  border-radius: 1em;
+  border-radius: .5em;
   font-size: .75rem;
 }
 
@@ -225,9 +228,15 @@ img {
 }
 
 .tag-blue {
-  background: #56CCF2;
-  background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  background: #013141;
+ 
   color: #fafafa;
+}
+
+.tag-yellow {
+  background: yellow;
+  background: linear-gradient(to bottom, #FFD194, #D1913C);
+  color: #000;
 }
 
 .tag-brown {
@@ -239,6 +248,18 @@ img {
 .tag-red {
   background: #cb2d3e;
   background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.tag-green {
+  background: green;
+  
+  color: #fafafa;
+}
+
+.tag-gray {
+  background: gray;
+  
   color: #fafafa;
 }
 
@@ -336,13 +357,36 @@ div.downloads-btn {
 
 .breadcrumb ol {
   padding-left: 0;
+  color:gray;
 }
 
 .breadcrumb li {
   display: inline;
+  color:gray;
 }
 
 .breadcrumb li:not(:last-child)::after {
-  content: "»";
+  content: "";
 }
+
+.head-images {
+  position: relative;
+  text-align: center;
+ 
+  
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
 

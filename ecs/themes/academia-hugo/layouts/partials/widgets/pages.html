@@ -77,8 +77,8 @@
       {{ if eq $st.Params.design.view 1 }}
       {{ partial "li_list" . }}
       {{ else if eq $st.Params.design.view 3 }}
-      <div class="col-lg-10">
-      {{ partial "li_faq" . }}
+      <div class="col-lg-4 col-md-6 mb-4">
+      {{ partial "li_card" . }}
       </div>
       {{ else if eq $st.Params.design.view 4 | and (eq $items_type "publication") }}
       {{ partial "li_citation" . }}

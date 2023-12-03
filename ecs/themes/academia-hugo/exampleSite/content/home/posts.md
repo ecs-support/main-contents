@@ -7,15 +7,15 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "ข่าวสารและบทความล่าสุด"
-subtitle = ""
+title = "Recent Posts"
+subtitle = "MY FANS DON'T FEEL LIKE I HOLD ANYTHING BACK FROM THEM"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 9
+  count = 5
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -24,14 +24,11 @@ subtitle = ""
   order = "desc"
 
   # Filter posts by a taxonomy term.
-
   [content.filters]
     tag = ""
     category = ""
     publication_type = ""
     exclude_featured = false
-    exclude_past = false
-    
   
 [design]
   # Toggle between the various page layout types.
@@ -48,17 +45,15 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  
-   #color = "#223A5E"
-  # color = '#f9f9f9'
+  # color = "navy"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "hamburg.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.4  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # image = "background.jpg"  # Name of image in `static/img/`.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   # text_color_light = true  

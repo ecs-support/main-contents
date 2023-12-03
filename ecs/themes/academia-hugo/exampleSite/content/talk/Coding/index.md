@@ -16,7 +16,7 @@ all_day: false
 publishDate: "2017-01-01T00:00:00Z"
 
 authors: []
-tags: ['Data']
+tags: []
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -47,7 +47,7 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["internal-project"]
+projects:
 # - internal-project
 
 # Enable math on this page?

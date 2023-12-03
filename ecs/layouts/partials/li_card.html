@@ -29,6 +29,7 @@
 {{ end }}
 
 <div class="card-simple" itemscope itemtype="http://schema.org/{{$microdata_type}}">
+  <div class="head-images">
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
     {{ with $resource }}
@@ -38,7 +39,14 @@
     </a>
     {{end}}
 
-    <div class="card-body">
+    <div class="badge top-left">
+      {{ range .Params.categories }}
+
+      <a class="tag tag-green" href="/categories/{{ . | urlize}}">{{ . }}</a>
+      {{ end }}
+    </div>
+  </div>
+  <div class="card-body">
     <h3 class="article-title mb-1 mt-0" itemprop="name">
       <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
     </h3>
@@ -46,7 +54,7 @@
     <div class="article-metadata">
       {{ if $item.Params.authors }}
       <div itemprop="author">
-        {{ partial "page_card" $item }}
+        {{ partial "page_card"}}
       </div>
       {{ end }}
       <span itemprop="startDate">
@@ -74,10 +82,10 @@
     {{ end }}
 
 
-    {{ if $show_buttons }}
-    <div class="btn-links">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    </div>
-    {{ end }}
+
+
+
+
+
   </div>
 </div>

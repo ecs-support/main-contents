@@ -1,6 +1,6 @@
 .breadcrumb {
   font-family: $sta-font-heading;
-  font-size: 17px;
+  
   padding: 0;
   margin-left: -5;
  
@@ -8,12 +8,35 @@
   background-color: #f5f5f5;
   
   border-radius: 5px;
+  color: $gray-600;
+  
+}
+.breadcrumb-item {
+  color: $gray-600;
+  font-size: 14px;
+
 }
 
 .breadcrumb-item.active {
+  color: $gray-600;
   background-color: #f5f5f5;
+  
 }
 
 .dark {
   color: rgba(255, 255, 255, 0.54);
+}
+
+.breadcrumb ol {
+  color: $gray-600;
+  padding-left: 0;
+}
+
+.breadcrumb li {
+  color: $gray-600;
+  display: inline;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  content: "";
 }

@@ -18,15 +18,15 @@
         <div class="col-lg-10">
 
           {{ range .Pages }}
-          {{ if eq $.Params.view 1 }}
-          {{ partial "li_list" . }}
-          {{ else if eq $.Params.view 3 }}
-          <div class="col-lg-4 col-md-6 mb-4">
-            {{ partial "li_card" . }}
-          </div>
-          {{ else }}
-          {{ partial "li_compact" . }}
-          {{ end }}
+            {{ if eq $.Params.view 1 }}
+              {{ partial "li_list" . }}
+            {{ else if eq $.Params.view 3 }}
+              <div class="col-lg-4 col-md-6 mb-4">
+              {{ partial "li_card" . }}
+              </div>
+            {{ else }}
+              {{ partial "li_compact" . }}
+            {{ end }}
           {{ end }}
 
         </div>

@@ -7,7 +7,7 @@
 {{ if and (not $title) .IsNode }}
 {{ if eq .Type "post" }}
 {{ $title = i18n "posts" }}
-{{ else if eq .Type "books" }}
+{{ else if eq .Type "series" }}
 {{ $title = i18n "posts" }}
 {{ else if eq .Type "talk" }}
 {{ $title = i18n "talks" }}
@@ -27,7 +27,7 @@
 <div class="container split-header">
   <div class="row justify-content-center">
    
-    <div class="col-lg-10">
+    <div class="col-lg-12">
       <h1 itemprop="name">{{ $title }}</h1>
 
       {{ with $page.Params.subtitle }}
@@ -39,7 +39,7 @@
       {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
       {{ partial "page_links_div.html" $page }}
 
-       <div class="col-lg-10">
+       <div class="col-lg-12">
          <img class="img-fluid w-100" src="{{ $image.RelPermalink }}" itemprop="image" alt="">
          {{ with $.Params.image.caption }}<span
            class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
@@ -66,14 +66,12 @@
 
       {{ partial "page_links_div.html" $page }}
      
-     
-      {{end}}
-
-      
+      {{end}}    
 
          
        
       {{end}}
+      {{ partial "breadcrumb.html" . }}
     </div>
   </div>
 </div>

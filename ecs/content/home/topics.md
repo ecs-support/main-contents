@@ -2,12 +2,12 @@
 # A Skills section created with the Featurette widget.
 widget = "topics"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "TOPICS"
 subtitle = "รวมหัวข้อยอดนิยม"
-color = "#223A5E"
+color = "#f5f5f5"
 
 # Showcase personal skills or business features.
 # 
@@ -16,7 +16,7 @@ color = "#223A5E"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[topics]]
-  icon = "clipboard-check"
+  icon = "globe"
   icon_pack = "fas"
   name = "การนำเข้า"
   card_text = "IMPORT"
@@ -54,27 +54,10 @@ color = "#223A5E"
   name = "การถ่ายลำผ่านแดน"
   card_text = "Transit"
   url = "/pages/transit/"
-
   
   
 [[topics]]
   icon = "balance-scale"
-  icon_pack = "fas"
-  name = "การปฏิบัติพิธีการศุลกากร"
-  card_text = "Customs Clearance" 
-  url = "/pages/clearance/"
-   
-  
-[[topics]]
-  icon = "hand-holding-usd"
-  icon_pack = "fas"
-  name = "ภาษีสรรพสามิต"
-  card_text = "Excise Tax" 
-  url = "/pages/import/excise/intro/"
-   
-  
-[[topics]]
-  icon = "bullhorn"
   icon_pack = "fas"
   name = "ประกาศกรมศุลกากร"
   card_text = "Customs Department Notification" 

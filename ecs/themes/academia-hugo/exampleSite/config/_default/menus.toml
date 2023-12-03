@@ -29,11 +29,9 @@
   weight = 50
 
 [[main]]
-  name = "Series"
-  url = "series/"
+  name = "Contact"
+  url = "#contact"
   weight = 60
-
-
 
 [[main]]
   name = "dropdown"
@@ -42,13 +40,13 @@
 
 [[main]]
   parent = "dropdown"
-  name = "faq"
-  url = "faq/"
+  name = "dropdown 1"
+  url = "#"
 
 [[main]]
   parent = "dropdown"
-  name = "announce"
-  url = "announce/"
+  name = "dropdown 2"
+  url = "#!"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

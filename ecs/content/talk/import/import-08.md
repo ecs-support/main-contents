@@ -4,7 +4,7 @@ title: การรวม ศบ. คืออะไร
 publishDate: "2019-02-28"
 draft: false
 authors: ["admin"]
-tags: ["การนำเข้า","รวม ศบ.","ศุลกากรทางบก"]
+tags: ["การนำเข้า","ศุลกากรทางบก"]
 categories: ['Import']
 
 ---

@@ -2,41 +2,42 @@
 
 <article class="article py-5" itemscope itemtype="http://schema.org/Article">
 
-    {{ partial "page_header.html" . }}
+  {{ partial "page_header.html" . }}
 
-     <div class="article-container">
+  
+ 
 
-        <div class="article-style" itemprop="articleBody">
-            {{ .Content }}
-       
+  <div class="article-container">
+    
 
-        {{ partial "tags.html" . }}
-
-        {{ if ne .Type "page" }}
-        {{ partial "page_author.html" . }}
-        {{ $related := site.RegularPages.Related . | first 5 }}
-        {{ with $related }}
-        <div class="article-widget">
-            <div class="hr-light">
-            <h3>{{ i18n "related" }}</h3>
-            <ul>
-                {{ range . }}
-                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                {{ end }}
-            </ul>
-        </div>
-        {{ end }}
-        {{ end }}
+    <div class="article-style" itemprop="articleBody">
+      {{ .Content }}
     </div>
-        {{ if site.Params.section_pager }}
-        <div class="article-widget">
-            {{ partial "section_pager.html" . }}
-        </div>
-        {{ end }}
-   
-        {{ partial "comments.html" . }}
-    </div>
-    </div>
+
+   <div class="container">
+
+     <br> {{ partial "tags.html" . }}
+
+     {{ partial "page_author.html" . }}
+     {{ $related := site.RegularPages.Related . | first 5 }}
+     {{ with $related }}
+
+     <h3>{{ i18n "related" }}</h3>
+     <ul>
+       {{ range . }}
+       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+       {{ end }}
+     </ul>
+
+     <br>
+     <b>Last Update : <span class="tag tag-green"> {{ $.Lastmod.Format site.Params.date_format }}</span></b>
+   </div>
+
+{{ end }}
+   </div>
+  
+
 </article>
+</div>
 
-{{- end -}}
+  {{ end }}

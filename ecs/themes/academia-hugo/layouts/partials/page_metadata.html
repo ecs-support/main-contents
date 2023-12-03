@@ -24,11 +24,9 @@
       {{ $date = $page.Date.Format (site.Params.publications.date_format | default "January, 2006") }}
     {{ else }}
       {{ if ne $page.Params.Lastmod $page.Params.Date }}
-
-
+          {{ i18n "last_updated" }}
       {{ end }}
     {{ end }}
-    <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
     <time>{{ $date }}</time>
   </span>
   {{ end }}

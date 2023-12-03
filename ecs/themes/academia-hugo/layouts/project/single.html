@@ -22,7 +22,7 @@
     <h2>{{ (i18n "posts") }}</h2>
     {{ range $items }}
     {{ if eq site.Params.projects.post_view 1 }}
-    {{ partial "li_faq" . }}
+    {{ partial "li_list" . }}
     {{ else if eq site.Params.projects.post_view 3 }}
     {{ partial "li_card" . }}
     {{ else }}
