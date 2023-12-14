@@ -3,7 +3,7 @@
  **************************************************/
 
 .navbar {
-    min-height: 50px !important;
+    min-height: 60px !important;
     width:100%;
 }
 
@@ -72,7 +72,7 @@ nav#navbar-main li.nav-item {
     /* Override Bootstrap. */
 }
 
-.navbar-brand,
+
 .navbar-nav li.nav-item a.nav-link {
     height: inherit;
     line-height: 60px;    
@@ -80,9 +80,10 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-brand img {
-    height: 60px;
+    height: 50px;
+    width:auto;
     vertical-align: center;
-    padding:0;
+    padding-top:10px;
 }
 
 .navbar-light .navbar-toggler .icon-bar {

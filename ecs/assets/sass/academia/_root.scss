@@ -26,7 +26,7 @@ body {
     /* Offset body content by navbar height. */
     padding-top: 0;
     counter-reset: captions;
-    line-height: 1.7;
+    line-height: 1.5;
   letter-spacing: 0.04ch;
 }
 
@@ -219,9 +219,9 @@ figcaption h4 {
 em {
     background-color: rgba(255, 255, 0,.7);
     font-weight: 600;
-    line-height: 1.5;
-    margin: 20px auto;
-    padding: 5px 10px;
+    line-height: 1.3;
+    margin: 10px auto;
+    padding: 5px 5px;
 }
 
 .dask>em {

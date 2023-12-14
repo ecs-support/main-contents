@@ -3,7 +3,7 @@
   <div class="container">
 
     <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href= "{{ "/KM/customs/" | relLangURL }}" >
+      <a class="navbar-brand" href= "{{ "/" | relLangURL }}" >
         {{- if site.Params.logo -}}
         <img class="logo-brand" src="{{ printf "./img/%s" site.Params.logo | relURL }}" alt= "{{ site.Title }}">
         {{- else -}}
