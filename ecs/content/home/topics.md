@@ -16,7 +16,7 @@ color = "#f5f5f5"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[topics]]
-  icon = "globe"
+  icon = "plane"
   icon_pack = "fas"
   name = "การนำเข้า"
   card_text = "IMPORT"
@@ -25,7 +25,7 @@ color = "#f5f5f5"
   
   
 [[topics]]
-  icon = "plane"
+  icon = "ship"
   icon_pack = "fas"
   name = "การส่งออก"
   card_text = "EXPORT" 
