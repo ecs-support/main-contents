@@ -5,7 +5,7 @@ summary: วันนี้ท่านสามารถพิมพ์ใบ�
 authors: 
   - admin
 tags: ["Bill Payment","ERV"]
-categories: ["news"]
+categories: ["News"]
 date: "2023-06-08T10:40:50Z"
 publishDate:  "2023-06-08T10:40:50Z"
 lastMod: "2023-06-08T10:40:50Z"

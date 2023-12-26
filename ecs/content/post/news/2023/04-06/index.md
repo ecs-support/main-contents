@@ -5,7 +5,7 @@ summary: วันนี้ออกของคล่องตัวและ�
 authors: 
   - admin
 tags: ["Customs Trader Portal"]
-categories: ["news"]
+categories: ["News"]
 date: "2023-04-06"
 publishDate: "2023-04-04"
 lastMod: "2023-04-06"

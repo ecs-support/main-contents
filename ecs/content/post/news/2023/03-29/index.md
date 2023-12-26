@@ -5,7 +5,7 @@ summary: รายชื่อผู้นำเข้า/ส่งออกท�
 authors: 
   - admin
 tags: ["ทะเบียนผู้มาติดต่อ","Importer-Extorter"]
-categories: ["news"]
+categories: ["News"]
 date: "2023-03-29"
 publishDate: "2023-03-29"
 lastMod: "2023-03-29"

@@ -5,7 +5,7 @@ summary: การตรวจสอบข้อมูลใบขนสิน�
 authors: 
   - admin
 tags: ["ตัวแทนออกของ"]
-categories: ["news"]
+categories: ["News"]
 date: "2022-12-16"
 publishDate: "2022-12-16"
 lastMod: "2022-12-16"
@@ -34,17 +34,7 @@ image:
 {{< gdocs src="./docs.pdf" >}}
 
 
-{{< rawhtml >}}
-<br>
-
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
-
-</div>
-<br>
-
-{{< /rawhtml >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
 
 ## เอกสารที่เกี่ยวข้อง
 

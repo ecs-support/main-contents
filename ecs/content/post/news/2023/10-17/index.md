@@ -5,7 +5,7 @@ summary: การสมัครและขอทบทวนสถานภ�
 authors: 
   - admin
 tags: ["AEO","TAS"]
-categories: ["news"]
+categories: ["News"]
 date: "2023-10-17T10:40:50Z"
 publishDate:  "2023-10-02T10:40:50Z"
 lastMod: "2023-10-17T10:40:50Z"

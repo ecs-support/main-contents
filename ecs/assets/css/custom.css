@@ -77,16 +77,16 @@
 #btn-toc {
   background-color:#f5f5f5;
   color: #202020;
-  font-size: 1.2em;
-  font-weight: 600;
+  font-size: 1em;
+  font-weight: 400;
   transition: 0.4s;
   box-shadow: 5px 5px 2px grey;
-  border: 3px solid #fc6f5c;
+  border: 2px solid #fc6f5c;
   font-family: 'Kanit',  sans-serif;
   border-radius:1rem;
   text-rendering: optimizeLegibility;
   vertical-align: middle;
-  width: 30%;
+  
   padding: 0 auto;
   margin-bottom: 1rem;
 

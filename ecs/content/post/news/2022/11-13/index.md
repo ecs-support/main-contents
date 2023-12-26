@@ -5,7 +5,7 @@ summary: กรมประมงขอเปิดใช้งานรหั�
 authors: 
   - admin
 tags: ["กรมประมง"]
-categories: ["news"]
+categories: ["News"]
 date: "2022-11-13"
 publishDate: "2022-11-13"
 lastMod: "2022-11-13"
@@ -28,23 +28,18 @@ image:
 
 
 
+{{< row_space >}}
+
 {{< gdocs src="./docs.pdf" >}}
 
 
-{{< rawhtml >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
 
-<br>
+{{< hint warning >}}
 
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
-
-</div>
-<br>
-
-{{< /rawhtml >}}
-
-**สอบถามข้อมูลเพิ่มเติมได้ที่ :** NSW Help Desk and Call Center โทร : 0-2109-3000 e-mail : callcenter@thainsw.net
+**สอบถามข้อมูลเพิ่มเติมได้ที่ :** NSW Help Desk and Call Center   
+โทร : 0-2109-3000 e-mail : callcenter@thainsw.net
+{{< /hint >}}
 
 > ที่มา : [ThaiNSW](https://www.thainsw.net/INSW/Ent/DisplayDocumentDetailServlet)
 

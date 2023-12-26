@@ -5,7 +5,7 @@ summary: ระบบลงทะเบียนผู้มาติดต่�
 authors: 
   - admin
 tags: ["Customs Trader Portal"]
-categories: ["news"]
+categories: ["News"]
 date: "2023-04-26"
 publishDate: "2023-04-26"
 lastMod: "2023-04-26"

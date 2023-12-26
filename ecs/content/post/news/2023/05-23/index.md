@@ -5,7 +5,7 @@ summary: แจ้งปิดการพิมพ์ใบเสร็จร�
 authors: 
   - admin
 tags: ["Bill Payment","ERV"]
-categories: ["news"]
+categories: ["News"]
 date: "2023-05-23T10:40:50Z"
 publishDate:  "2023-05-23T12:40:50Z"
 lastMod: "2023-05-23T11:40:50Z"

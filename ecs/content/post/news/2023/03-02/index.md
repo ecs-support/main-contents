@@ -5,7 +5,7 @@ summary: อัพเดทการใช้ตารางกฎเฉพา�
 authors: 
   - admin
 tags: ["AJCEP","ATIGA"]
-categories: ["news"]
+categories: ["News"]
 date: "2023-03-02"
 publishDate: "2023-03-02"
 lastMod: "2023-03-02"

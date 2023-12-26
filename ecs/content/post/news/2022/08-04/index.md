@@ -5,7 +5,7 @@ summary: ศุลกากร ร่วมกับ ธนาคารกรุ
 authors: 
   - admin
 tags: ["Customs Trader Portal"]
-categories: ["news"]
+categories: ["News"]
 date: "2022-08-04"
 publishDate: "2022-08-04"
 lastMod: "2022-08-04"
