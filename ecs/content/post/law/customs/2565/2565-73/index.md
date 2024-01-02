@@ -6,9 +6,9 @@ authors:
   - admin
 tags: ["บัญชีสินค้าทางรถไฟ","การปฏิบัติพิธีการศุลกากร"]
 categories: ["ประกาศกรมศุลกากร"]
-date: "2023-07-20"
-publishDate: "2022-06-01"
-lastMod: "2023-07-20"
+date: "2022-05-24"
+publishDate: "2022-05-24"
+lastMod: "2022-05-24"
 featured: false
 draft: false
 
