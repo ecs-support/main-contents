@@ -18,7 +18,7 @@ html {
 
 body {
     font-family: inherit;
-    font-size: 1em;
+    font-size: 1rem;
     line-height: inherit;
     color: inherit;
     background-color: $sta-background;
@@ -115,7 +115,7 @@ h1 {
 
 h2 {
     margin-top: 1rem;
-    font-size: 1.75rem;
+    font-size: 1.7rem;
     font-weight: 500;
 }
 
@@ -128,7 +128,7 @@ h4,
 h5,
 h6 {
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 h3.article-title a {
@@ -269,12 +269,12 @@ blockquote {
 
 
     border-left: .5rem solid #2A4B7C;
-    background: rgba(2, 95, 189, 0.15);
+    background: rgba(2, 95, 189, 0.1);
 
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-        margin-top: 1rem;
-            margin-bottom: 1rem;
+      padding-top: .75rem;
+      padding-bottom: .75rem;
+        margin-top: .75rem;
+            margin-bottom: .75rem;
 }
 
 blockquote p:last-child {
@@ -284,7 +284,7 @@ blockquote p:last-child {
 @media (min-width: 30em) {
     blockquote {
         padding-right: 5rem;
-        padding-left: 1.25rem;
+        padding-left: 1rem;
     }
 }
 
