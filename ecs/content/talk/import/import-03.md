@@ -8,9 +8,7 @@ tags: ["การนำเข้า","Import"]
 categories: ['Import']
 
 ---
-- สามารถเข้าไปตรวจสอบได้ที่เว็บไซต์กรมศุลกากร ระบบ e-tracking (http://e-tracking.customs.go.th/ETS/index.jsp?lang=th&left_menu=nmenu_esevice_002) 
-
-
+- สามารถเข้าไปตรวจสอบได้ที่เว็บไซต์กรมศุลกากร ระบบ [e-tracking](http://e-tracking.customs.go.th/ETS/index.jsp?lang=th&left_menu=nmenu_esevice_002) 
 - ไปที่เมนู **“Vessel”** 
 
 ![](http://www.customs.go.th/data_files/d721caa2f91b95a3f4b7b3481cd936a7.png)
@@ -20,5 +18,5 @@ categories: ['Import']
 
 ![](http://www.customs.go.th/data_files/a4f2ceed545fdaa744bfabcaa5c165ad.png)
 
->- ที่มา : กรมศุลกากร  
->- วันที่ปรับปรุงล่าสุด : 22 กุมภาพันธ์ 2562  
+> ที่มา : กรมศุลกากร   
+> วันที่ปรับปรุงล่าสุด : 22 กุมภาพันธ์ 2562  
