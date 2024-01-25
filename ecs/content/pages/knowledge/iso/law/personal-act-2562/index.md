@@ -19,7 +19,9 @@ image:
   focal_point: ""
   preview_only: true
 ---
+
 {{<  toc >}}
+
 ### หมวด 2 การคุ้มครองข้อมูลส่วนบุคคล
 
 - ให้เก็บรวบรวมข้อมูลส่วนบุคคลได้เท่าที่จำเป็นภายใต้วัตถุประสงค์อันชอบด้วยกฎหมาย
@@ -51,20 +53,12 @@ image:
 - ผู้ควบคุมข้อมูลส่วนบุคคล/ผู้ประมวลผลข้อมูลส่วนบุคคล ไม่ปฏิบัติตาม พ.ร.บ.ต้องโทษปรับทางปกครองสูงสุดไม่เกิน 5,000,000 บาท โดยขึ้นอยู่กับมาตราที่ฝ่าฝืน
 
 
-{{< rawhtml >}}
-<br>
-{{< /rawhtml >}}
-{{< gdocs src= "./docs.pdf" >}}
-{{< rawhtml >}}
-<br>
+{{< gdocs src="./docs.pdf" >}}
 
+{{< row_space >}}
 
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
+ 
 
-</div>
-
- <br>
-{{< /rawhtml >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
 
 > ที่มา : [สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์](https://ictlawcenter.etda.or.th/laws/detail/DP-Act-2562)
