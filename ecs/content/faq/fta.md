@@ -5,9 +5,9 @@
 widget = "faq"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+weight = 60  # Order that this section will appear.
 
-title = "สิทธิประโยชน์ทางภาษี"
+title = "สิทธิพิเศษทางการค้า"
 subtitle = ""
 
 [content]
@@ -27,7 +27,7 @@ subtitle = ""
 
   [content.filters]
     tag = ""
-    category = "TaxIncentive"
+    category = "FTA"
     publication_type = ""
     exclude_featured = false
     exclude_past = false

@@ -1025,7 +1025,7 @@ $clouds: #ecf0f1;
     margin-top: 1em;
     /*margin-right:5em; */
     width: 90%;
-    padding: 0 auto;
+
     text-align: left;
     transition: 0.4s;
     box-shadow: 7px 7px 4px grey;
@@ -1035,6 +1035,10 @@ $clouds: #ecf0f1;
     text-rendering: optimizeLegibility;
 
     vertical-align: middle;
+}
+
+.faq-collapsible {
+    padding-right: 2em;
 }
 
 .collapsible-toc {

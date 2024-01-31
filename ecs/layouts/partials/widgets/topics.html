@@ -80,8 +80,8 @@
 
 <div class="row">
   <div class="col-12 section-heading text-center">
- <h1> Topic</h1>
- <p>หัวข้อที่เป็นที่นิยมในขณะนี้</p>
+    {{ with $page.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
   
   </div>
   
