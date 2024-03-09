@@ -23,17 +23,12 @@ image:
 
 
 
+{{< row_space >}}
+
 {{< gdocs src="./docs.pdf" >}}
 
-{{< rawhtml >}}
-<br>
 
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a> 
-</div>
-<br>
-{{< /rawhtml >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลด{{< /button >}}
 
 
 > ที่มา : ด่านศุลกากรเชียงของ

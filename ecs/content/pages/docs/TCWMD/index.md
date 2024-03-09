@@ -24,17 +24,11 @@ image:
 
 
 
+{{< row_space >}}
+
 {{< gdocs src="./docs.pdf" >}}
 
-{{< rawhtml >}}
-<br>
 
-<br>
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a> 
-</div>
-<br>
-
-{{< /rawhtml >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลด{{< /button >}}
 
 > ที่มา : [กองปกป้องและตอบโต้ทางการค้า](https://www.thaitr.go.th/storage/measure_info/HTXEDZVOnhvnVh0GRrR5gGqPJ8bplCXqo7XJbjkW.pdf)
