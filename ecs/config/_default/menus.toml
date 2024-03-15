@@ -25,6 +25,7 @@
   name = "การส่งออกสินค้า"
   url = "pages/export/"
   weight = 22
+  
 [[main]]
   parent = "พิธีการศุลกากร"
   name = "สินค้าถ่ายลำ/ผ่านแดน"
@@ -162,13 +163,6 @@
 
 
 
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
 
 
 

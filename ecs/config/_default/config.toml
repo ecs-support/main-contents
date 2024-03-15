@@ -74,7 +74,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [markup]
   [markup.tableOfContents]
     startLevel = 2
-    endLevel = 3
+    endLevel = 4
 
 
 # Related
