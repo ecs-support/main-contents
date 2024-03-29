@@ -93,7 +93,7 @@ image:
 
 
 
-{{< button href="./docs.pdf" >}}ดาวน์โหลดอัตราแลกเปลี่ยน{{< /button >}}
+{{< button href="https://ecs-support.github.io/KM/reference/static/files/exchange-rate.pdf" >}}ดาวน์โหลดอัตราแลกเปลี่ยน{{< /button >}}
 
 > ที่มา : กรมศุลกากร.  
 ตรวจสอบข้อมูลอ้างอิงจากศุลกากรเพิ่มเติมได้ [**ที่นี่**](https://ecs-support.github.io/KM/reference/)
