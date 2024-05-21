@@ -120,4 +120,4 @@ image:
 
 {{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
 
-> ที่มา : [กรมศุลกากร]()
+> ที่มา : [กรมศุลกากร](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14223132414b505f4b464b4a464b47)
