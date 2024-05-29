@@ -106,6 +106,7 @@ image:
 
 
 
-{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}  {{< button href="./annex_246-2564.zip" >}}ดาวน์โหลดเอกสารแนบท้ายประกาศ{{< /button >}}
+
 
 > ที่มา : [กรมศุลกากร](https://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142329324146505f46464b4d464b4a)
