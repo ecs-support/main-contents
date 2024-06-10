@@ -140,7 +140,7 @@ h3.article-title a {
 
 h3.article-title a:hover {
     color: $sta-primary;
-  transition: color 0.3s ease;
+    transition: color 0.3s ease;
     text-decoration: none;
     cursor: pointer;
     
@@ -266,8 +266,6 @@ hr {
 /* Quotes */
 
 blockquote {
-
-
     border-left: .5rem solid #2A4B7C;
     background: rgba(2, 95, 189, 0.1);
 
