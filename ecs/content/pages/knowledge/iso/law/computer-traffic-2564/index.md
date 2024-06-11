@@ -2,10 +2,9 @@
 title: "หลักเกณฑ์การเก็บรักษาข้อมูลจราจรทางคอมพิวเตอร์ของผู้ให้บริการ พ.ศ. 2564"
 subtitle:
 summary: ประกาศกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม เรื่อง หลักเกณฑ์การเก็บรักษาข้อมูลจราจรทางคอมพิวเตอร์ของผู้ให้บริการ พ.ศ. 2564
-authors:
-  - admin
-tags: ["ข้อมูลจราจรทางคอมพิวเตอร์"]
-categories: ["ISO-27001","ประกาศ"]
+authors: ["admin"]
+tags: ["ประกาศ"]
+categories: ["การกระทำความผิดเกี่ยวกับคอมพิวเตอร์"]
 date: "2021-10-20"
 lastMod: "2021-10-20"
 publishDate: "2021-08-13"
@@ -27,22 +26,16 @@ image:
 ![](img-01.jpg)
 
 
-{{< rawhtml >}}
-<br>
-{{< /rawhtml >}}
+{{< row_space >}}
 
-{{< gdocs src= "./docs.pdf" >}}
+{{< gdocs_width src="./docs.pdf" >}}
 
-{{< rawhtml >}}
-<br>
+{{< row_space >}}
 
 
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
 
-</div>
- <br>
-{{< /rawhtml >}}
+
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
 
 - [กลับเมนูหลัก](../../section/)
 
