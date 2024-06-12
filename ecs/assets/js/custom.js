@@ -27,3 +27,24 @@ function closeOpenedDetails() {
     });
 }
 
+
+/* ---------------------------------------------------------------------------
+   *    <accordion>
+   * --------------------------------------------------------------------------- */
+const accordions = document.querySelectorAll('accordion_2');
+
+
+accordions.forEach((accordion_2) => {
+  const icon = accordions.querySelector("#accordion-icon");
+  summary.addEventListener('click', closeOpenedDetails);
+
+});
+
+function closeOpenedDetails() {
+  accordions.forEach((accordion_2) => {
+    let detail = accordion_2.parentNode;
+      if (detail != this.parentNode) {
+        detail.removeAttribute('open');
+      }
+    });
+}

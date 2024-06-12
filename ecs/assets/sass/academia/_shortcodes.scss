@@ -86,19 +86,23 @@ details {
 
 }
 
-summary>h4:hover {
+summary>h3:hover {
   cursor: pointer;
   color:$sta-primary ;
  
 }
 
-summary>h4 {
+summary>h3 {
   font-family: $sta-font-heading, sans-serif; 
   font-weight: 500;
   vertical-align: middle;
-  color:$black;
-  font-size: 20px;
+  color:$sta-heading;
+  
   margin-right:0.8em;
+
+    margin-top: 1rem;
+    font-size: 1.25rem;
+
  
 
 }
@@ -173,8 +177,4 @@ summary::after {
 }
 
 /*  </summary> */
-
-
-
-
 

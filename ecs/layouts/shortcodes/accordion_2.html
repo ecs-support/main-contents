@@ -1,0 +1,13 @@
+<div class="accordion_2">
+    <div class="accordion__header">
+        <h2 class="accordion__question">{{ default "accordion_2" (.Get 0) }}</h2>
+       
+        <span class="accordion__icon">
+            <i id="accordion-icon" class="ri-add-line"></i>
+        </span>
+    </div>
+    <div class="accordion__content">
+        <p class="accordion__answer">{{ .Inner | markdownify }}</p>
+        
+    </div>
+</div>
