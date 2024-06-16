@@ -35,19 +35,16 @@ image:
 1. การตรวจสอบและการประเมินผลการปฏิบัติตามนโยบาย มาตรการ หลักเกณฑ์หรือกระบวนการใด ๆ รวมทั้งข้อกำหนดด้านความมั่นคงปลอดภัยของระบบสารสนเทศ.  
 
 
-{{< rawhtml >}}
-<br>
-{{< /rawhtml >}}
-{{< gdocs src= "./docs.pdf" >}}
-{{< rawhtml >}}
-<br>
+{{< row_space >}}
 
+{{< gdocs src="./docs.pdf" >}}
 
-<div class="article-tags">
-<a class="badge badge-danger" href="./docs.pdf" target="_blank" id="download_files_new">Download</a>
+{{< row_space >}}
 
-</div>
- <br>
-{{< /rawhtml >}}
+ 
+
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}
+
+- [กลับเมนูหลัก](../../section/)
 
 > ที่มา : [สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์](https://ictlawcenter.etda.or.th/laws/detail/พระราชกฤษฎีกาว่าด้วยวิธีการแบบปลอดภัยในการทำธุรกรรมทางอิเล็กทรอนิกส์-พศ-2553)
