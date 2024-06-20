@@ -20,6 +20,15 @@ image:
   preview_only: true
 ---
 
+![](info-13.jpg)
+
+
+
+{{< row_space >}}
+
+![](info-14.jpg)
+
+
 
 
 
@@ -35,4 +44,8 @@ image:
 
 - [กลับเมนูหลัก](../../section/)
 
-> ที่มา : [คณะกรรมการคุ้มครองข้อมูลส่วนบุคคล](https://www.pdpc.or.th/2507/)
+
+> ที่มา : 
+> - [กรุงเทพธุรกิจ](https://www.bangkokbiznews.com/news/news-update/1115730)
+> - [คณะกรรมการคุ้มครองข้อมูลส่วนบุคคล](https://www.pdpc.or.th/2507/)
+
