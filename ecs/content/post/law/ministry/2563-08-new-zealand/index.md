@@ -25,28 +25,18 @@ image:
 ## ประกาศกระทรวงการคลัง เรื่อง การยกเว้นอากรและลดอัตราอากรศุลกากรสำหรับของที่มีถิ่นกำเนิดจากนิวซีแลนด์ (ฉบับที่ 2 ) 
 
 
-![](./img/imgjpg_Page1.jpg)
-
-![](./img/imgjpg_Page2.jpg)
 
 
 
- <a href="./new-zealand.pdf" target="_blank" id="download_files">ดาวน์โหลดประกาศ 
-                <i class=" fas fa-file-pdf" style="font-size:30px; color: red;" id="icon_download"></i>
-            </a>
+ {{< row_space >}}
 
-<style>
+{{< gdocs src="./docs.pdf" >}}
 
-#download_files:hover,
-#icon_downlad:hover {
-  color: #2A4B7C; 
-  font-weight:bold;
-  text-decoration: none;
-  transition: color 0.4s ease;
-}
+{{< row_space >}}
 
-</style>
 
+
+{{< button href="./docs.pdf" >}}ดาวน์โหลดประกาศ{{< /button >}}  
 
 
 
