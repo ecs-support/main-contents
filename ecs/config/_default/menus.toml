@@ -70,6 +70,7 @@
   name = "พิกัดศุลกากร"
   url = "pages/tariff/"
   weight = 32
+  
 [[main]]
   parent = "เรื่องน่ารู้"
   name = "ราคาศุลกากร"

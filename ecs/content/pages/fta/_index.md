@@ -16,7 +16,7 @@ authors: ["admin"]
 # Optional header image (relative to `static/img/` folder).
 menu:
   fta:
-    parent: สิทธิพิเศษทางการค้า
+    name: สิทธิพิเศษทางการค้า
     weight: 1    
 weight: 1
 ---
