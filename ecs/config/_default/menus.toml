@@ -133,33 +133,37 @@
 [[main]]
   name = "คลังความรู้"
   url = "pages/knowledge/"
-  weight = 70
+  hasChildren = true
 
 
+[[main]]
+  parent = "dropdown"
+  name = "dropdown 1"
+  url = "#"
 
 [[main]]
   parent = "คลังความรู้"
   name = "ISO 27001"
   url = "pages/knowledge/iso/"
-  weight = 71
+
 
 [[main]]
   parent = "คลังความรู้"
   name = "เอกสารเผยแพร่"
   url = "pages/docs/section/"
-  weight = 72
+ 
 
 [[main]]
   parent = "คลังความรู้"
   name = "บทความน่ารู้"
   url = "post/knowledge/"
-  weight = 74
+ 
 
 [[main]]
   parent = "คลังความรู้"
   name = "FAQ"
   url = "faq/"
-  weight = 80
+
 
 
 
