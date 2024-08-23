@@ -137,11 +137,6 @@
 
 
 [[main]]
-  parent = "dropdown"
-  name = "dropdown 1"
-  url = "#"
-
-[[main]]
   parent = "คลังความรู้"
   name = "ISO 27001"
   url = "pages/knowledge/iso/"
