@@ -19,8 +19,9 @@ image:
   preview_only: true
 ---
 
+![](Infographics_2566-06.jpg)
 
-
+มีผลใช้บังคับตั้งแต่*วันที่ 7 เมษายน พ.ศ.2567*
 
 {{< row_space >}}
 
