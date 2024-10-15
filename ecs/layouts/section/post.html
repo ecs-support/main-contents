@@ -1,6 +1,5 @@
 {{- define "main" -}}
 
-
 <div class="universal-wrapper split-section">
   <div class="row">
     <div class="col-12 section-heading text-center">
@@ -28,13 +27,18 @@
          {{ partial "li_card" . }}
        </div>
       {{ end }}
+      
       {{ end }}
 
-      <div class="col-lg-12 col-md-12 mb-12 justify-content-right">
-      {{ partial "pagination-02" . }}
-    </div>
 
     </div>
+    
+    <div class="col-lg-12 col-md-12 mb-12 justify-content-right">
+      {{ partial "pagination-02" . }}
+    </div>
+      
+  
 
     {{- end -}}
 
+ 

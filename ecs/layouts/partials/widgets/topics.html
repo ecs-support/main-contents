@@ -14,7 +14,7 @@
 
     display: grid;
     place-content: center;
-    gap: 1rem;
+    gap: 2rem;
 
     --shadow:
       -.5rem -.5rem 1rem hsl(0 0% 100% / .75),
@@ -91,6 +91,7 @@
     <div class="row justify-content-center">
       <div class="buttons">
     {{ range $page.Params.topics }}
+    
     {{ $pack := or .icon_pack "fa" }}
     {{ $pack_prefix := $pack }}
     {{ if in (slice "fab" "fas" "far" "fal") $pack }}
