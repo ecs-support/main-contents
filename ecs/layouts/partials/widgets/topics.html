@@ -61,7 +61,7 @@
   }
 
 
-  h11 {
+  h1 {
     text-align: center;
     color: hsl(0 0% 10%);
     font-family: system-ui, sans-serif;
@@ -96,7 +96,7 @@
     {{ $pack_prefix := $pack }}
     {{ if in (slice "fab" "fas" "far" "fal") $pack }}
     {{ $pack_prefix = "fa" }}
-    {{ end }}
+ 
 
   
     
@@ -112,6 +112,7 @@
         {{end }}
       </button>
       {{ end }}
+         {{ end }}
     </div>
   </div>
 </div>
