@@ -89,8 +89,10 @@
   
   <div class="col-12">
     <div class="row justify-content-center">
-      <div class="buttons">
+       <div class="buttons">
+     
     {{ range $page.Params.topics }}
+    
     
     {{ $pack := or .icon_pack "fa" }}
     {{ $pack_prefix := $pack }}

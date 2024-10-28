@@ -63,4 +63,11 @@ color = "#f5f5f5"
   card_text = "Customs Department Notification" 
   url = "/post/law/customs/"
 
+[advanced]
+ # Custom CSS. 
+ css_style = "topic"
+ 
+ # CSS class.
+ css_class = "topic"
+
 +++
