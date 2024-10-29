@@ -65,9 +65,9 @@ color = "#f5f5f5"
 
 [advanced]
  # Custom CSS. 
- css_style = "topic"
+ css_style = "topics"
  
  # CSS class.
- css_class = "topic"
+ css_class = "topics"
 
 +++
