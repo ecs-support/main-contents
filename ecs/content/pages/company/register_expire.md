@@ -4,7 +4,7 @@ linktitle:  ตัวแทนออกที่จะหมดอายุใ�
 title: รายชื่อตัวแทนออกของและผู้ปฏิบัติงานเกี่ยวกับการออกของที่จะหมดอายุในปี พ.ศ. 2568
 date: "2024-11-05T00:00:00Z"
 lastmod: "2024-11-05T00:00:00Z"
-draft: true  # Is this a draft? true/false
+draft: false  # Is this a draft? true/false
 toc: false # Show table of contents? true/false
 type: series  # Do not modify.
 categories: [""]
